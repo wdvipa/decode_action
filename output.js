@@ -1,752 +1,2218 @@
-//Wed Jun 18 2025 16:35:44 GMT+0000 (Coordinated Universal Time)
+//Wed Jun 18 2025 16:37:01 GMT+0000 (Coordinated Universal Time)
 //Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
 //Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
 "use strict";
 
-(self.webpackChunkcombination_template = self.webpackChunkcombination_template || []).push([[2861], {
-  33858: function (e, t) {
-    var r, l, c, p;
-    r = 452005, l = {
-      channelCode: 10013e6,
-      netId: "cedf920e510149c48484284aae65a1a2",
-      channelId: "10011000",
-      contentId: "608716069205"
-    }, c = {
-      channelId: "10011000",
-      contentId: "608716069205",
-      netid: "9532d4f105694bb28b0a66320b6a86ab",
-      jsID: "10011000"
-    }, p = {
-      integralMercNo: "CMV14223937"
-    }, t.A = {
-      BASE_URL: "https://betagame.migufun.com/",
-      HOST: "https://www.migufun.com/miguplay",
-      H5_HOST_URL: "https://www.migufun.com",
-      RULE_ID: r,
-      DOWNLOAD_URL: "https://www.migufun.com/h5/cloudgame/appdownload/appDownload.html",
-      baseContext: "https://g.10086.cn/miguplay/",
-      payMsg: l,
-      payMsgDemand: c,
-      payMsgIntegral: p,
-      NET_ID: "bd481aa8478f4e5baaa87680ad83a5c1",
-      ruleUrl: "https://www.migufun.com/h5/cloudgame/game/rule.html?id=",
-      pactId: "608007",
-      questionId: "608003",
-      kefuBaseKey: "5749C1B1384787C2456333DEC616502E",
-      kefuUrl: "https://kf.migu.cn/revision1906/",
-      envConfig: "prod",
-      ruleId: "188003"
-    };
-  },
-  62861: function (e, t, o) {
-    o.r(t), o.d(t, {
+(self.webpackChunkcombination_template = self.webpackChunkcombination_template || []).push([[5782], {
+  25782: function (t, e, i) {
+    i.r(e), i.d(e, {
       default: function () {
-        return x;
+        return V;
       }
     });
-    var a = o(50697),
-      n = o.n(a),
-      r = o(26100),
-      i = o.n(r),
-      s = o(96319),
-      l = o.n(s),
-      c = o(78928),
-      p = o.n(c),
-      d = o(36751),
-      u = o.n(d),
-      y = o(34963),
-      g = o(3300),
-      I = o(56255),
-      f = o.n(I),
-      h = o(14607),
-      m = o.n(h),
-      w = o(85569),
-      v = o.n(w),
-      P = o(11393),
-      C = o.n(P),
-      S = o(44828),
-      N = o.n(S),
-      T = o(57083),
-      A = o(95353),
-      b = o(93547),
-      F = o(48590),
-      _ = o(33858),
-      M = o(93975);
-    function k(e, t) {
-      var o = n()(e);
-      if (i()) {
-        var a = i()(e);
-        t && (a = l()(a).call(a, function (t) {
-          return p()(e, t).enumerable;
-        })), o.push.apply(o, a);
+    var o = i(11393),
+      a = i.n(o),
+      n = i(50697),
+      s = i.n(n),
+      r = i(26100),
+      l = i.n(r),
+      c = i(96319),
+      d = i.n(c),
+      p = i(78928),
+      u = i.n(p),
+      g = i(36751),
+      v = i.n(g),
+      f = i(34963),
+      h = i(3300),
+      _ = i(44828),
+      m = i.n(_),
+      y = i(18979),
+      I = i.n(y),
+      C = i(56255),
+      b = i.n(C),
+      w = i(8628),
+      k = i.n(w),
+      D = i(71426),
+      T = i.n(D),
+      x = i(14607),
+      A = i.n(x),
+      U = i(48079),
+      z = i.n(U),
+      P = i(48590),
+      S = i(93547),
+      B = i(95353),
+      N = i(57083),
+      M = i(64346),
+      L = i(17515),
+      F = i.n(L),
+      R = i(75429),
+      E = i(87673),
+      O = i(27345),
+      G = i(77e3),
+      H = i(5483),
+      J = i(24049);
+    function Q(t, e) {
+      var i = s()(t);
+      if (l()) {
+        var o = l()(t);
+        e && (o = d()(o).call(o, function (e) {
+          return u()(t, e).enumerable;
+        })), i.push.apply(i, o);
       }
-      return o;
+      return i;
     }
-    function D(e) {
-      for (var t = 1; t < arguments.length; t++) {
-        var o = null != arguments[t] ? arguments[t] : {};
-        t % 2 ? k(Object(o), true).forEach(function (t) {
-          (0, g.A)(e, t, o[t]);
-        }) : u() ? Object.defineProperties(e, u()(o)) : k(Object(o)).forEach(function (t) {
-          Object.defineProperty(e, t, p()(o, t));
+    function j(t) {
+      for (var e = 1; e < arguments.length; e++) {
+        var i = null != arguments[e] ? arguments[e] : {};
+        e % 2 ? Q(Object(i), true).forEach(function (e) {
+          (0, h.A)(t, e, i[e]);
+        }) : v() ? Object.defineProperties(t, v()(i)) : Q(Object(i)).forEach(function (e) {
+          Object.defineProperty(t, e, u()(i, e));
         });
       }
-      return e;
+      return t;
     }
-    var U = {
-        name: "PayForYuanbaoPopup",
-        props: ["popupFloorInfo", "activityInfo", "giftInfo", "activityId"],
+    var q = {
+        props: ["dialogInfo", "activityInfo", "floorInfo"],
         components: {},
         data: function () {
+          var t;
           return {
+            debounceTimer: null,
+            giftPhone: "",
+            defaultNormalDiaLog: i(15720),
+            defaultOpenVipBg: i(23046),
+            logoIcon: i(81234),
+            isShow: this.dialogInfo.isShow,
+            type: this.dialogInfo.type,
+            title: this.dialogInfo.title,
+            errorCode: this.dialogInfo.errorCode,
+            info: this.dialogInfo.info,
+            isSecondGiftFlag: null === (t = this.dialogInfo) || undefined === t ? undefined : t.isSecondGiftFlag,
+            dialogBgImg: this.dialogInfo.dialogBgImg,
+            giftState: this.dialogInfo.giftState,
+            btnText: this.dialogInfo.btnText,
+            cancelText: this.dialogInfo.cancelText,
+            gameId: this.dialogInfo.gameId,
+            rewardImg: this.dialogInfo.rewardImg,
+            prizeType: this.dialogInfo.prizeType,
+            dlcEffectiveTime: this.dialogInfo.dlcEffectiveTime,
+            dlcExpireTime: this.dialogInfo.dlcExpireTime,
+            addressDeadLineDate: this.dialogInfo.addressDeadLineDate,
+            rewardId: this.dialogInfo.rewardId,
+            errorJumpType: this.dialogInfo.errorJumpType,
+            errorJumpUrl: this.dialogInfo.errorJumpUrl,
+            prizeReceivedUrl: this.dialogInfo.prizeReceivedUrl,
+            memberDialogInfo: this.dialogInfo.memberDialogInfo,
+            urlFloor: this.dialogInfo.urlFloor,
+            downloadUrl: this.dialogInfo.downloadUrl,
+            isToAiKan: this.dialogInfo.isToAiKan,
+            isAgain: this.dialogInfo.isAgain,
+            floorNeedDetail: this.dialogInfo.floorNeedDetail,
+            openGridDialogDetail: this.dialogInfo.openGridDialogDetail,
+            prizeInfo: this.dialogInfo.prizeInfo,
+            compliantOrderingFlag: this.dialogInfo.compliantOrderingFlag,
+            clickhand: false,
+            topHeight: 0,
+            svgaShow: true,
+            buttonGroup: {
+              checkPrize: "查看我的奖品",
+              confirm: "确定",
+              copyDownloadLink: "复制链接",
+              acceptInvite: "接受邀请"
+            },
+            button: null,
             showLoading: false,
-            selType: 1,
-            consent: false,
-            debounceSelAct: MiguplayUtils.fn.throttle(this.clickPay),
-            userItem: "",
-            isGotoquery: false,
-            firstNum: 0,
-            loopFindNum: 3,
-            transactionId: "",
-            totalAmount: "",
-            productCode: "",
-            productPrice: 0,
-            integralMercNo: "",
-            tradeDate: "",
-            tradeTime: "",
-            integralFlag: "",
-            gwURL: "",
-            expireDateTime: "",
-            packageDescWord: ""
+            extParam: "",
+            checkPhone: "",
+            isNkProvince: false,
+            closeDialogBackFun: null,
+            sureDialogBackFun: null,
+            sureBtnImg: "",
+            showCloseIcon: false,
+            subscribeBtnType: 0,
+            gotoInfo: "",
+            appUnlockPrizeFlag: false,
+            waitUnlockPrizeId: ""
           };
         },
-        computed: D(D({}, (0, A.aH)("user", ["payPopInfoList"])), {}, {
-          onlyonePayInfo: function () {
-            return this.payPopInfoList[0] ? this.payPopInfoList[0] : {};
+        computed: j(j({}, (0, B.aH)("user", ["userId", "userToken", "userInfoObj"])), {}, {
+          channel: function () {
+            return MiguplayUtils.url.getQueryString("appChannel") || MiguplayUtils.url.getQueryString("channel") || "";
+          },
+          isWebsite: function () {
+            return "10011000000" == MiguplayUtils.url.getQueryString("appchannel") || !this.channel || "zy-gw-mghy" == MiguplayUtils.url.getQueryString("appChannel");
+          },
+          myRgba: function () {
+            var t = this;
+            return function () {
+              var e = arguments.length > 0 && undefined !== arguments[0] ? arguments[0] : .2,
+                i = t.activityInfo.color ? t.activityInfo.color : "#00D792";
+              if (/^#([0-9a-fA-f]{3}|[0-9a-fA-f]{6})$/.test(i)) {
+                if (4 === i.length) {
+                  for (var o = "#", n = 1; n < 4; n += 1) {
+                    var s;
+                    o += a()(s = I()(i).call(i, n, n + 1)).call(s, I()(i).call(i, n, n + 1));
+                  }
+                  i = o;
+                }
+                var r = [];
+                for (n = 1; n < 7; n += 2) r.push(parseInt("0x" + I()(i).call(i, n, n + 2)));
+                return "rgba(" + r.join(",") + "," + e + ")";
+              }
+            };
+          },
+          height: function () {
+            return {
+              "--topheight": this.topHeight + "px"
+            };
+          },
+          isPc: function () {
+            return MiguplayUtils.ua.isPC();
+          },
+          buttonText: function () {
+            var t = {
+              authentication: "去认证",
+              verify: "去验证",
+              default: "好的"
+            };
+            return t[this.errorJumpType] || t.default;
+          },
+          computedLineHeight: function () {
+            return {
+              "line-height": this.isSingleLine ? 74 / this.isSingleLine / 37.5 + "rem" : "normal",
+              "text-align": 1 === this.isSingleLine ? "center" : "left"
+            };
+          },
+          isSingleLine: function () {
+            var t = this.title || "",
+              e = Math.ceil(t.length / 17);
+            return 1 === e ? e : 3;
           }
         }),
         watch: {
-          onlyonePayInfo: {
+          dialogInfo: function (t) {
+            this.isShow = t.isShow, this.type = t.type, this.title = t.title, this.info = t.info, this.isSecondGiftFlag = t.isSecondGiftFlag, this.errorCode = t.errorCode, this.dialogBgImg = t.dialogBgImg, this.giftState = t.giftState, this.btnText = t.btnText, this.cancelText = t.cancelText, this.gameId = t.gameId, this.rewardImg = t.rewardImg, this.prizeType = t.prizeType, this.dlcEffectiveTime = t.dlcEffectiveTime, this.dlcExpireTime = t.dlcExpireTime, this.addressDeadLineDate = t.addressDeadLineDate, this.rewardId = t.rewardId, this.errorJumpType = t.errorJumpType, this.errorJumpUrl = t.errorJumpUrl, this.prizeReceivedUrl = t.prizeReceivedUrl, this.memberDialogInfo = t.memberDialogInfo, this.urlFloor = t.urlFloor, this.button = t.button || [], this.downloadUrl = t.downloadUrl, this.prizeInfo = t.prizeInfo, this.isNkProvince = !!t.isNkProvince, this.isToAiKan = t.isToAiKan, this.isAgain = t.isAgain, this.floorNeedDetail = t.floorNeedDetail, this.openGridDialogDetail = t.openGridDialogDetail, this.compliantOrderingFlag = t.compliantOrderingFlag || 0, this.closeDialogBackFun = t.closeDialogBackFun || null, this.sureDialogBackFun = t.sureDialogBackFun || null, this.sureBtnImg = t.sureBtnImg || "", this.showCloseIcon = t.showCloseIcon || "", this.subscribeBtnType = t.subscribeBtnType || 0, this.gotoInfo = t.gotoInfo || "", this.appUnlockPrizeFlag = t.appUnlockPrizeFlag || "", this.waitUnlockPrizeId = t.waitUnlockPrizeId || "", this.gameId, 6 == this.type ? this.queryNeedMsgCheck() : 20 == this.type && MiguplayUtils.ua.isPC() && this.gameQrcode(this.info);
+          },
+          isShow: function (t) {
+            t ? 33 != this.type ? P.A.stopBodyScroll(".dialog-panle") : $("body").css({
+              overflow: "hidden"
+            }) : P.A.bodyScroll(".dialog-panle");
+          },
+          clickhand: function (t) {
+            t ? P.A.stopBodyScroll(".dialog-panle") : P.A.bodyScroll(".dialog-panle");
+          },
+          showLoading: function (t) {
+            t ? P.A.stopBodyScroll(".dialog-panle") : P.A.bodyScroll(".dialog-panle");
+          },
+          type: function (t) {
+            var e = this;
+            4 == t ? b()(function () {
+              e.type = 2, e.dialogBgImg = e.activityInfo.receivePopUrl;
+            }, 2e3) : 11 == t && this.startSvga();
+          },
+          prizeInfo: function (t) {
+            var e = this;
+            t && 2 == this.type && MiguplayUtils.address.getAddress().then(function (t) {
+              e.$set(e.prizeInfo, "address", t);
+            });
+          },
+          userInfoObj: {
             deep: true,
-            handler: function (e, t) {
-              e && this.setPackageDescWord();
+            immediate: true,
+            handler: function (t, e) {
+              this.userPhone = t.phone;
             }
+          }
+        },
+        filters: {
+          handleTime: function (t) {
+            return P.A.getDateTime(1 * t, "y");
+          },
+          handleRankType: function (t) {
+            var e = "";
+            switch (t) {
+              case 1:
+                e = "日榜";
+                break;
+              case 2:
+                e = "月榜";
+                break;
+              case 3:
+                e = "周榜";
+                break;
+              case 4:
+                e = "总榜";
+            }
+            return e;
           }
         },
         created: function () {},
         mounted: function () {
-          var e = this;
-          return (0, y.A)(N().mark(function t() {
-            var o;
-            return N().wrap(function (t) {
-              for (;;) switch (t.prev = t.next) {
-                case 0:
-                  o = e, MiguplayUtils.ua.isAndroid() ? document.addEventListener("visibilitychange", function () {
-                    document.hidden || o.isGotoquery || o.handlePayStatus();
-                  }) : window.addEventListener("pageshow", (0, y.A)(N().mark(function e() {
-                    return N().wrap(function (e) {
-                      for (;;) switch (e.prev = e.next) {
-                        case 0:
-                          o.isGotoquery || o.handlePayStatus();
-                        case 2:
-                        case "end":
-                          return e.stop();
-                      }
-                    }, e);
-                  })), false), o.isGotoquery || o.handlePayStatus();
-                case 4:
-                case "end":
-                  return t.stop();
-              }
-            }, t);
-          }))();
+          this.userPhone = this.userInfoObj.phone;
         },
-        methods: D(D({}, (0, A.PY)("user", ["setLuckyCloverNum", "setPayPopInfoList", "setShowPayPop"])), {}, {
-          setPackageDescWord: function () {
+        methods: {
+          commitPhoneNum: function (t) {
             var e = this;
-            return (0, y.A)(N().mark(function t() {
-              var o, a;
-              return N().wrap(function (t) {
+            return (0, f.A)(m().mark(function t() {
+              var i;
+              return m().wrap(function (t) {
                 for (;;) switch (t.prev = t.next) {
                   case 0:
-                    if (!e.onlyonePayInfo || !e.onlyonePayInfo.packageDescWordid) {
-                      t.next = 8;
+                    if (!e.debounceTimer) {
+                      t.next = 2;
                       break;
                     }
-                    return o = {
-                      data: {
-                        id: e.onlyonePayInfo.packageDescWordid
-                      }
-                    }, t.next = 4, T.A.queryCopyWriting(o);
-                  case 4:
-                    (a = t.sent).data.returnCode && "000000" == a.data.returnCode ? e.packageDescWord = a.data.resultData.content || "" : e.this.packageDescWord = "", t.next = 9;
+                    return t.abrupt("return");
+                  case 2:
+                    if (e.debounceTimer = b()(function () {
+                      e.debounceTimer = null;
+                    }, 1e3), !e.giftPhone || !e.validatePhoneNumber(e.giftPhone)) {
+                      t.next = 10;
+                      break;
+                    }
+                    return t.next = 6, e.checkGiftPhone();
+                  case 6:
+                    "success_checkPhone" == (i = t.sent) ? (e.closeDialog(), e.$parent.dialogInfo = {
+                      isShow: true,
+                      type: 31,
+                      prizeInfo: e.prizeInfo
+                    }) : "noRegister_checkPhone" == i ? (P.A.popMessageNew("该手机号未在咪咕快游注册账号，请输入其他手机号再尝试"), e.giftPhone = "") : "error_checkPhone" == i && (P.A.popMessageNew("操作失败，请稍后再试"), e.giftPhone = ""), t.next = 12;
                     break;
-                  case 8:
-                    e.this.packageDescWord = "";
-                  case 9:
+                  case 10:
+                    P.A.popMessageNew("请输入有效的手机号"), e.giftPhone = "";
+                  case 12:
                   case "end":
                     return t.stop();
                 }
               }, t);
             }))();
           },
-          handlePayStatus: function () {
-            this.getQueryString("pay") && 3 == window.localStorage.getItem("payType") && window.localStorage.getItem("gotoPay") ? (this.isGotoquery = true, this.$parent.dialogType = 3, this.handleHFPayStatus()) : !window.localStorage.getItem("gotoPay") || 1 != window.localStorage.getItem("payType") && 2 != window.localStorage.getItem("payType") && 4 != window.localStorage.getItem("payType") || (window.localStorage.removeItem("payType"), this.isGotoquery = true, this.$parent.dialogType = 3, this.queryPaySatus(), MiguplayUtils.appUtils.isMiguApp() && MiguplayUtils.appUtils.messageHandlers({
-              functionName: "dealKeyBackEventByH5",
-              iosMethodType: "jsbridge"
+          giftPrizeToOther: function () {
+            var t = this;
+            return (0, f.A)(m().mark(function e() {
+              var i, o;
+              return m().wrap(function (e) {
+                for (;;) switch (e.prev = e.next) {
+                  case 0:
+                    if (!t.debounceTimer) {
+                      e.next = 2;
+                      break;
+                    }
+                    return e.abrupt("return");
+                  case 2:
+                    return t.debounceTimer = b()(function () {
+                      t.debounceTimer = null;
+                    }, 1e3), i = {
+                      headers: {
+                        userId: t.userId,
+                        userToken: t.userToken
+                      },
+                      data: {
+                        recordId: t.prizeInfo.id,
+                        giftPhone: t.giftPhone
+                      }
+                    }, e.prev = 5, e.next = 8, N.A.giftPrizeToOther(i);
+                  case 8:
+                    "000000" == (o = e.sent).data.returnCode ? b()(function () {
+                      t.cancelToOther(31), P.A.popMessageNew("赠送成功"), t.$parent.init();
+                    }, 500) : "060074" == o.data.returnCode && (P.A.popMessageNew("该用户已拥有该礼包，请输入其他手机号再尝试"), t.cancelToOther(31), t.$parent.dialogInfo = {
+                      isShow: true,
+                      type: 30,
+                      prizeInfo: t.prizeInfo
+                    }), e.next = 16;
+                    break;
+                  case 12:
+                    e.prev = 12, e.t0 = e.catch(5), P.A.popMessageNew("网络失败，请稍后再试");
+                  case 16:
+                  case "end":
+                    return e.stop();
+                }
+              }, e, null, [[5, 12]]);
+            }))();
+          },
+          cancelToOther: function (t) {
+            this.giftPhone = "", this.closeDialog(t);
+          },
+          checkGiftPhone: function () {
+            var t = this;
+            return (0, f.A)(m().mark(function e() {
+              var i, o;
+              return m().wrap(function (e) {
+                for (;;) switch (e.prev = e.next) {
+                  case 0:
+                    return i = {
+                      headers: {
+                        userId: t.userId,
+                        userToken: t.userToken
+                      },
+                      data: {
+                        recordId: t.prizeInfo.id,
+                        phone: t.giftPhone
+                      }
+                    }, e.prev = 2, e.next = 5, N.A.getUserByPhone(i);
+                  case 5:
+                    if ("000000" != (o = e.sent).data.returnCode) {
+                      e.next = 10;
+                      break;
+                    }
+                    return e.abrupt("return", "success_checkPhone");
+                  case 10:
+                    if ("020017" != o.data.returnCode) {
+                      e.next = 14;
+                      break;
+                    }
+                    return e.abrupt("return", "noRegister_checkPhone");
+                  case 14:
+                    return e.abrupt("return", "error_checkPhone");
+                  case 15:
+                    e.next = 21;
+                    break;
+                  case 17:
+                    return e.prev = 17, e.t0 = e.catch(2), e.abrupt("return", "error_checkPhone");
+                  case 21:
+                  case "end":
+                    return e.stop();
+                }
+              }, e, null, [[2, 17]]);
+            }))();
+          },
+          validatePhoneNumber: function (t) {
+            return /^1[3-9]\d{9}$/.test(t);
+          },
+          goVideoFollow: function () {
+            this.closeDialog(), this.$emit("goVideoFollow");
+          },
+          goUp: function () {
+            if ((0, G.zU)({
+              eventKey: "1-1-34-2"
+            }), this.closeDialog(), MiguplayUtils.appUtils.isMiguApp()) window.location.href = "youplay://setting";else {
+              var t,
+                e = a()(t = "webview?url=".concat(M.A.H5hostURL, "/miguplay/delivery/activity/")).call(t, window.location.search),
+                i = this.activityInfo.downloadUrl;
+              P.A.autoOpenApp({
+                autoOpen: false,
+                applink: e,
+                downloadUrl: i
+              });
+            }
+          },
+          goToGrowPage: function () {
+            this.closeDialog(), MiguplayUtils.appUtils.isMiguApp() ? window.location.href = "youplay://usergrowthhome?scrollTo=1" : P.A.jumpUrl("".concat(M.A.H5hostURL, "/middleh5/userGrowUpSystem?scrollTo=1"));
+          },
+          gameQrcode: function (t) {
+            var e = this,
+              i = document.getElementById("qrcodeDown");
+            i && (i.innerHTML = ""), b()(function () {
+              "function" != typeof QRCode ? MiguplayUtils.loadFile.loadScript("//h5cdn.migufun.com/middleh5/qrcode.min.js", function () {
+                e.createQRCode(t);
+              }) : e.createQRCode(t);
+            }, 300);
+          },
+          createQRCode: function (t) {
+            this.qrc && this.qrc.clear(), this.qrc = new QRCode(document.getElementById("qrcodeDown"), {
+              text: t,
+              width: 127,
+              height: 127
+            });
+          },
+          getEndTimeStamp: function (t) {
+            var e = new Date(t),
+              i = e.getFullYear(),
+              o = e.getMonth() + 1,
+              a = e.getDate(),
+              n = e.getHours(),
+              s = e.getMinutes();
+            return i + "." + (o < 10 ? "0" + o : o) + "." + (a < 10 ? "0" + a : a) + " " + (n < 10 ? "0" + n : n) + ":" + (s < 10 ? "0" + s : s);
+          },
+          startSvga: function () {
+            var t = this;
+            this.$nextTick(function () {
+              var e = t,
+                i = new (F().Player)("#svgaBox");
+              new (F().Parser)("#svgaBox").load("/miguplay/delivery/activity/static/image/openGift.svga", function (t) {
+                i.loops = 1, i.setVideoItem(t), i.startAnimation(), i.onFinished(function () {
+                  i.clear(), i.stopAnimation();
+                  var t = document.getElementById("svgaBox-out");
+                  t.querySelector("canvas") && (t.innerHTML = ""), e.svgaShow = false;
+                });
+              });
+            });
+          },
+          clickGoAppBtn: function () {
+            var t = this;
+            return (0, f.A)(m().mark(function e() {
+              var i, o, n, s;
+              return m().wrap(function (e) {
+                for (;;) switch (e.prev = e.next) {
+                  case 0:
+                    return e.next = 3, t.closeDialog();
+                  case 3:
+                    t.isToAiKan ? (S.A.recordEventAction({
+                      pageName: "云分发活动模板页面",
+                      eventType: "clouddistribute_69",
+                      rese8: "拉起 咪咕爱看",
+                      labelName: t.floorNeedDetail.labelName,
+                      topicName: t.floorNeedDetail.topicName,
+                      indexno: t.floorNeedDetail.indexno,
+                      rese9: t.floorNeedDetail.rese9
+                    }), b()(function () {
+                      var e;
+                      P.A.openAiKanApp({
+                        floorId: t.floorNeedDetail.floorId,
+                        url: a()(e = "".concat(M.A.H5hostURL, "/miguplay/delivery/activity/")).call(e, window.location.search)
+                      });
+                    }, 100)) : t.gameId || 0 == t.gameId ? P.A.playOrOpenApp("openapp", t.gameId, "", t.downloadUrl) : P.A.openAppHook({
+                      appLink: a()(i = "webview?url=".concat(M.A.H5hostURL, "/miguplay/delivery/activity/")).call(i, window.location.search),
+                      downloadUrl: t.downloadUrl,
+                      source: "fromOther",
+                      from: t.activityInfo.activityId,
+                      activityInfo: t.activityInfo,
+                      floorInfo: t.dialogInfo.floorInfo || t.floorInfo,
+                      taskId: t.dialogInfo.taskId || (null === (o = t.floorInfo) || undefined === o ? undefined : o.taskId) || "",
+                      prize_rule_gameId: (null === (n = t.prizeInfo) || undefined === n ? undefined : n.prizeId) || (null === (s = t.dialogInfo.prizeInfo) || undefined === s ? undefined : s.prizeId) || ""
+                    });
+                  case 4:
+                  case "end":
+                    return e.stop();
+                }
+              }, e);
+            }))();
+          },
+          clickDoubleCheckBtn: function () {
+            var t = this;
+            return (0, f.A)(m().mark(function e() {
+              return m().wrap(function (e) {
+                for (;;) switch (e.prev = e.next) {
+                  case 0:
+                    return e.next = 2, t.closeDialog();
+                  case 2:
+                    t.isNkProvince ? b()(function () {
+                      t.$emit("handleConditionType9", t.dialogInfo.index);
+                    }, 500) : t.$emit("clickDoubleCheckBtn", t.dialogInfo.index);
+                  case 3:
+                  case "end":
+                    return e.stop();
+                }
+              }, e);
+            }))();
+          },
+          goPrizeReceivedUrl: function () {
+            this.isWebsite ? window.location.href = this.prizeReceivedUrl : P.A.popMessageNew("请前往指定APP使用哦~");
+          },
+          closeDialog: function (t) {
+            var e;
+            if (23 == t && this.closeDialogBackFun) this.closeDialogBackFun();else {
+              if (24 == this.type && null !== (e = this.info) && undefined !== e && k()(e).call(e, "您不是新用户")) try {
+                var o, a, n, s;
+                (0, H.Tb)({
+                  eventKey: "1-1-3-2-1",
+                  floorId: this.floorInfo.floorId,
+                  taskId: null === (o = this.dialogInfo) || undefined === o || null === (o = o.prizeInfo) || undefined === o ? undefined : o.taskId,
+                  conditionId: (null === (a = this.dialogInfo) || undefined === a || null === (a = a.prizeInfo) || undefined === a ? undefined : a.conditionId) || "",
+                  floorPullFlag: (null === (n = this.dialogInfo) || undefined === n || null === (n = n.prizeInfo) || undefined === n ? undefined : n.floorPullFlag) || "",
+                  actPullFlag: (null === (s = this.dialogInfo) || undefined === s || null === (s = s.prizeInfo) || undefined === s ? undefined : s.actPullFlag) || ""
+                });
+              } catch (t) {}
+              if ((14 == this.type || 17 == this.type) && "showTotast" == t) {
+                /(?=.*是否消耗)(?=.*云豆抽奖)/.test(this.title) && this.$parent.floorInfo.fragmentUnreachDesc && P.A.popMessageNew(this.$parent.floorInfo.fragmentUnreachDesc);
+              }
+              4 != this.type && (this.type = 0, this.isShow = false, this.svgaShow = true, this.$emit("close", ""));
+            }
+          },
+          copyDownloadURL: function (t) {
+            var e = t,
+              i = document.createElement("textarea");
+            document.body.appendChild(i), i.style.position = "fixed", i.style.clip = "rect(0 0 0 0)", i.style.top = "10px", i.value = e, i.select(), document.execCommand("copy", true), document.body.removeChild(i), this.closeDialog(), MiguplayUtils.layer.toast("复制成功", 1500);
+          },
+          goDownloadURL: function (t) {
+            window.location.href = t;
+          },
+          doubleConfirm: function () {
+            var t = this;
+            return (0, f.A)(m().mark(function e() {
+              var i;
+              return m().wrap(function (e) {
+                for (;;) switch (e.prev = e.next) {
+                  case 0:
+                    if (t.closeDialog(), 29 !== (null === (i = t.dialogInfo) || undefined === i ? undefined : i.type)) {
+                      e.next = 5;
+                      break;
+                    }
+                    return t.closeDialog(), "ikonw" !== t.dialogInfo.index && t.$emit("doubleConfirm", t.dialogInfo), e.abrupt("return");
+                  case 5:
+                    R.A.getReport(t.dialogInfo.info[0].prizeId || -1, 2), t.$emit("doubleConfirm", true);
+                  case 7:
+                  case "end":
+                    return e.stop();
+                }
+              }, e);
+            }))();
+          },
+          verifyBack: function (t, e) {
+            var i;
+            (this.showLoading = false, (0, O.ao)({
+              resultCode: t,
+              msg: e
+            }), k()(e).call(e, "成功")) ? this.msgReport() : "0000" !== t && "044001" !== t && MiguplayUtils.layer.toast(a()(i = "云验失败-".concat(e, "(")).call(i, t, ")"), 1500);
+          },
+          queryNeedMsgCheck: function () {
+            var t = this;
+            return (0, f.A)(m().mark(function e() {
+              var i;
+              return m().wrap(function (e) {
+                for (;;) switch (e.prev = e.next) {
+                  case 0:
+                    if (!E.A.state.user.illegalUser) {
+                      e.next = 3;
+                      break;
+                    }
+                    return P.A.blockIllegalUser(E.A.state.user.illegalUser), e.abrupt("return");
+                  case 3:
+                    return t.prizeIdList = [], t.dialogInfo.info.forEach(function (e) {
+                      t.prizeIdList.push(e.prizeId);
+                    }), i = {
+                      data: {
+                        prizeId: t.prizeIdList.toString()
+                      },
+                      headers: {
+                        userId: t.userId
+                      }
+                    }, e.next = 8, N.A.queryNeedMsgCheck(i).then(function (e) {
+                      if ("000000" === e.data.returnCode) if (t.extParam = e.data.resultData.extParam, t.checkPhone = MiguplayUtils.crypto.decryptPhone(e.data.resultData.item1, e.data.resultData.item2), e.data.resultData.needMsgCheck) {
+                        var i;
+                        t.showLoading = true, "undefined" == typeof mgvc && MiguplayUtils.loadFile.loadScript("https://wsdkdl.migu.cn:8443/mgvf/js/mgvf_prod_h.js"), (0, O.ao)({
+                          msg: "mgvc加载"
+                        });
+                        var o = {};
+                        1 == t.compliantOrderingFlag && (o = {
+                          appId: e.data.resultData.appId,
+                          chName: e.data.resultData.chName,
+                          pdName: e.data.resultData.pdName,
+                          busiEquity: e.data.resultData.busiEquity,
+                          businessDesc: e.data.resultData.businessDesc,
+                          businessName: e.data.resultData.popupContent || "短信验证"
+                        }), T()(i = $(document)).call(i, "#verifyDetailTag").remove(), t.$nextTick(function () {
+                          var e = A()(function () {
+                            "undefined" != typeof mgvc && ((0, O.ao)({
+                              msg: "mgvc初始化"
+                            }), clearInterval(e), mgvc.verify(t.verifyBack, j({
+                              appId: M.A.appId,
+                              phone: t.checkPhone,
+                              ifModify: "false",
+                              ifHade: "true",
+                              extParam: t.extParam,
+                              businessName: t.dialogInfo.info.length > 1 ? "是否领取活动大礼包" : "是否领取".concat(t.dialogInfo.info[0].prizeName)
+                            }, o)));
+                          }, 10);
+                        });
+                      } else t.isShow = true;
+                    });
+                  case 8:
+                    return e.abrupt("return", e.sent);
+                  case 9:
+                  case "end":
+                    return e.stop();
+                }
+              }, e);
+            }))();
+          },
+          msgReport: function () {
+            var t = this;
+            return (0, f.A)(m().mark(function e() {
+              var i;
+              return m().wrap(function (e) {
+                for (;;) switch (e.prev = e.next) {
+                  case 0:
+                    if (!E.A.state.user.illegalUser) {
+                      e.next = 3;
+                      break;
+                    }
+                    return P.A.blockIllegalUser(E.A.state.user.illegalUser), e.abrupt("return");
+                  case 3:
+                    return i = {
+                      data: {
+                        type: 2,
+                        prizeId: t.prizeIdList.toString(),
+                        extParam: t.extParam
+                      },
+                      headers: {
+                        userId: t.userId
+                      }
+                    }, 1 == t.compliantOrderingFlag && (i.data.compliantOrderingFlag = 1), e.next = 7, N.A.msgReport(i).then(function (e) {
+                      "000000" === e.data.returnCode && (R.A.getReport(t.dialogInfo.info[0].prizeId || -1, 2), t.isAgain ? t.$emit("prizeRetry") : t.$emit("doubleConfirm", true));
+                    });
+                  case 7:
+                  case "end":
+                    return e.stop();
+                }
+              }, e);
+            }))();
+          },
+          toEditAddress: function (t, e, i) {
+            var o = this;
+            if (3 == e || 4 == e) MiguplayUtils.layer.toast("已过期，无法编辑地址", 2e3);else {
+              var a = this.activityInfo.addressDeadLineDay,
+                n = a ? 6 : 0,
+                s = a && t ? t : 0,
+                r = this.activityInfo.activityFlag,
+                l = this.activityInfo.activityId;
+              if (this.prizeInfo.address && "choose" != i) MiguplayUtils.address.saveAddress(n, s, r, l, this.prizeInfo.address).then(function (t) {
+                t && (o.closeDialog(), o.prizeInfo = {});
+              });else {
+                var c = i = false;
+                MiguplayUtils.address.chooseAddress({
+                  isNeedSave: c,
+                  activityType: n,
+                  relationId: s,
+                  activityFlag: r,
+                  activityId: l
+                }).then(function (t) {
+                  o.$set(o.prizeInfo, "address", t);
+                });
+              }
+            }
+          },
+          goRuleAndReward: function (t) {
+            var e = this;
+            if ("" != t) try {
+              this.toEditAddress(t, 1);
+            } catch (t) {}
+            this.closeDialog(), this.$nextTick(function () {
+              b()(function () {
+                e.$parent.$parent.getMyReward ? e.$parent.$parent.getMyReward() : e.$parent.getMyReward();
+              }, 200);
+            });
+          },
+          goUnlock: function () {
+            var t, e, i;
+            this.closeDialog(), P.A.openAppHook({
+              appLink: a()(t = "webview?url=".concat(M.A.H5hostURL, "/miguplay/delivery/activity/")).call(t, window.location.search),
+              downloadUrl: this.downloadUrl,
+              source: "fromOther",
+              from: this.activityInfo.activityId,
+              activityInfo: this.activityInfo,
+              floorInfo: this.dialogInfo.floorInfo || this.floorInfo,
+              taskId: this.dialogInfo.taskId || (null === (e = this.floorInfo) || undefined === e ? undefined : e.taskId) || "",
+              prize_rule_gameId: (null === (i = this.prizeInfo) || undefined === i ? undefined : i.prizeId) || this.waitUnlockPrizeId || ""
+            });
+          },
+          openMember: function (t) {
+            var e = this;
+            if (4 != this.type) {
+              this.type = 0, this.isShow = false, this.$emit("close", t);
+              var i = {};
+              try {
+                var o;
+                i.prePageName = document.title || "", i.rese44 = this.floorInfo.prizeRuleId || "", i.rese45 = "3", i.rese46 = "1", i.rese50 = "1_13_1", i.rese51 = a()(o = "任务_".concat(this.activityInfo.activityId, "_")).call(o, this.floorInfo.floorId);
+              } catch (t) {}
+              if (i = MiguplayUtils.url.encodePayFromParam(i), 2 == this.errorJumpType) {
+                if (this.errorJumpUrl) i && P.A.isToPayPage(this.errorJumpUrl) && (this.errorJumpUrl = MiguplayUtils.url.urlContact(this.errorJumpUrl, {
+                  payFromObject: i
+                })), P.A.openUrl(this.errorJumpUrl);else {
+                  var n = this.$parent.$parent.$refs["".concat("floor" + this.urlFloor)][0].$el.offsetTop,
+                    s = this.$parent.$parent.$refs["".concat("floor" + this.urlFloor)][0].$el.offsetHeight;
+                  window.scrollTo({
+                    top: n,
+                    behavior: "smooth"
+                  }), b()(function () {
+                    e.topHeight = n - window.scrollY + s / 2, e.clickhand = true, b()(function () {
+                      e.clickhand = false;
+                    }, 2e3);
+                  }, 1e3);
+                }
+              } else 1 == this.errorJumpType && P.A.openVip("", "", i);
+            }
+          },
+          openPlayGround: function () {
+            var t;
+            this.closeDialog();
+            var e = "";
+            e = P.A.isMiguApp() ? "youplay://playground" : "https://g.migufun.com/H5QD", (0, J.C)({
+              eventKey: "1-1-9-2",
+              pullFlag: (null === (t = this.floorInfo) || undefined === t ? undefined : t.pullFlag) || 0
+            }), P.A.jumpUrl(e);
+          },
+          changeSubscribe: function () {
+            this.$emit("changeSubscribe", this.subscribeBtnType), this.closeDialog();
+          },
+          sureDialog: function (t) {
+            if (23 == t && this.sureDialogBackFun) this.sureDialogBackFun();else {
+              if (this.$emit("sure", t), "editAddress" == t) {
+                P.A.bodyScroll(".dialog-panle");
+                var e = {
+                  rewardid: this.rewardId,
+                  date: this.addressDeadLineDate,
+                  pageid: MiguplayUtils.url.getQueryString("pageid"),
+                  sign: MiguplayUtils.url.getQueryString("sign")
+                };
+                MiguplayUtils.url.getQueryString("channel") && (e.channel = MiguplayUtils.url.getQueryString("channel")), MiguplayUtils.url.getQueryString("appchannel") && (e.appchannel = MiguplayUtils.url.getQueryString("appchannel")), MiguplayUtils.url.getQueryString("appChannel") && (e.appChannel = MiguplayUtils.url.getQueryString("appChannel")), this.$router.push({
+                  name: "address",
+                  params: {
+                    addtype: 1
+                  },
+                  query: e
+                });
+              }
+              this.gameId && this.playOrOpenApp(this.gameId, this.activityInfo.downloadUrl), this.isShow = false;
+            }
+          },
+          getDateTime: function (t, e) {
+            return P.A.getDateTime(t, e);
+          },
+          onCopy: function (t) {
+            P.A.popMessageNew("复制成功");
+            var e = t.trigger.dataset.gameid;
+            e && 35 != this.prizeType && this.playOrOpenApp(e, this.activityInfo.downloadUrl);
+          },
+          playOrOpenApp: function (t, e) {
+            P.A.playOrOpenApp(1 == this.activityInfo.pullFlag ? "openapp" : "play", t, this.channel, e);
+          },
+          getMember: function (t) {
+            var e = this,
+              i = {
+                headers: {
+                  userId: this.userId,
+                  userToken: this.userToken
+                }
+              };
+            "blind" == t.floorType || "luckdraw" == t.floorType ? (i.data = {
+              floorId: this.memberDialogInfo.floorId
+            }, N.A.nineBlindBoxReceive(i).then(function (t) {
+              "000000" == t.data.returnCode ? (e.closeDialog(), P.A.popMessageNew("业务受理中，会员实际到账以短信恢复结果为准")) : P.A.popMessageNew(t.data.message);
+            }).catch(function (t) {
+              P.A.popMessageNew("网络异常");
+            })) : "gift" != t.floorType && "progress" != t.floorType || (i.data = {
+              conditionId: this.memberDialogInfo.conditionId,
+              floorId: this.memberDialogInfo.floorId
+            }, N.A.progressGiftBagReceive(i).then(function (t) {
+              "000000" == t.data.returnCode ? (e.closeDialog(), P.A.popMessageNew("业务受理中，会员实际到账以短信恢复结果为准")) : P.A.popMessageNew(t.data.message);
+            }).catch(function (t) {
+              P.A.popMessageNew("网络异常");
             }));
           },
-          handleHFPayStatus: function () {
+          clickButtonGroup: function (t) {
             var e = this;
-            JSON.parse(window.sessionStorage.getItem("packageInfo"));
-            "success" == this.getQueryString("pay") && (this.$parent.dialogType = 1, window.localStorage.removeItem("gotoPay"), this.isGotoquery = false, f()(function () {
-              try {
-                b.A.recordEventAction({
-                  pageName: "云分发活动模板页面",
-                  eventType: "clouddistribute_64",
-                  rese8: "曝光 云分发活动模板页面-支付成功",
-                  rese2: window.location.href,
-                  rese1: e.activityId,
-                  rese3: e.popupFloorInfo.activityName,
-                  rese4: e.activityInfo.pageId,
-                  labelName: e.popupFloorInfo.floorName,
-                  topicName: e.popupFloorInfo.floorId,
-                  indexno: e.popupFloorInfo.floorType,
-                  rese9: e.popupFloorInfo.floorName,
-                  rese19: 1,
-                  rese10: window.localStorage.getItem("payBusinessCode") || "",
-                  rese16: window.localStorage.getItem("payprice") || ""
-                }), b.A.newrecordEventAction({
-                  eventContent: "1-1-18-1-1",
-                  activityId: e.activityId,
-                  type: 1,
-                  opValue: 0,
-                  action: "1-1-18-1-1兑换支付弹窗-支付按钮-支付成功确认（曝光）",
-                  floorId: e.popupFloorInfo.floorId,
-                  rese2: window.localStorage.getItem("payBusinessCode") || "",
-                  rese4: window.localStorage.getItem("payprice") || ""
-                });
-              } catch (e) {}
-            }, 2e3)), "fail" == this.getQueryString("pay") && (this.$parent.dialogType = 2, window.localStorage.removeItem("gotoPay"), this.isGotoquery = false, f()(function () {
-              e.$parent.dialogType = 0;
-              try {
-                b.A.recordEventAction({
-                  pageName: "云分发活动模板页面",
-                  eventType: "clouddistribute_65",
-                  rese8: "曝光 云分发活动模板页面-支付失败",
-                  rese2: window.location.href,
-                  rese1: e.activityId,
-                  rese3: e.popupFloorInfo.activityName,
-                  rese4: e.activityInfo.pageId,
-                  labelName: e.popupFloorInfo.floorName,
-                  topicName: e.popupFloorInfo.floorId,
-                  indexno: e.popupFloorInfo.floorType,
-                  rese9: e.popupFloorInfo.floorName,
-                  rese10: window.localStorage.getItem("payBusinessCode") || "",
-                  rese16: window.localStorage.getItem("payprice") || "",
-                  rese19: 1,
-                  reason: ""
-                }), b.A.newrecordEventAction({
-                  eventContent: "1-1-18-1-2",
-                  activityId: e.activityId,
-                  type: 1,
-                  opValue: 0,
-                  action: "1-1-18-1-2兑换支付弹窗-支付按钮-支付失败确认（曝光）",
-                  floorId: e.popupFloorInfo.floorId,
-                  rese2: window.localStorage.getItem("payBusinessCode") || "",
-                  rese4: window.localStorage.getItem("payprice") || ""
-                }), e.reportCoreUserPayErrorEvent();
-              } catch (e) {}
-            }, 2e3));
-          },
-          queryPaySatus: function () {
-            var e = this,
-              t = {
-                data: {
-                  orderId: window.localStorage.getItem("payOrderid")
-                }
-              };
-            T.A.querySubscribeStatus(t).then(function (t) {
-              if ("000000" === t.data.returnCode) {
-                if (1 != t.data.resultData.payStatus) e.loopFindOrder || (e.loopFindOrder = m()(function () {
-                  e.firstNum >= e.loopFindNum ? (e.$parent.dialogType = 2, clearInterval(e.loopFindOrder), e.firstNum = 0, f()(function () {
-                    e.$parent.dialogType = 0;
-                  }, 2e3), b.A.recordEventAction({
-                    pageName: "云分发活动模板页面",
-                    eventType: "clouddistribute_65",
-                    rese8: "曝光 云分发活动模板页面-支付失败",
-                    rese2: window.location.href,
-                    rese1: e.activityId,
-                    rese3: e.popupFloorInfo.activityName,
-                    rese4: e.activityInfo.pageId,
-                    labelName: e.popupFloorInfo.floorName,
-                    topicName: e.popupFloorInfo.floorId,
-                    indexno: e.popupFloorInfo.floorType,
-                    rese9: e.popupFloorInfo.floorName,
-                    rese10: window.localStorage.getItem("payBusinessCode") || "",
-                    rese16: window.localStorage.getItem("payprice") || "",
-                    reason: "",
-                    rese19: 1
-                  }), b.A.newrecordEventAction({
-                    eventContent: "1-1-18-1-2",
-                    activityId: e.activityId,
-                    type: 1,
-                    opValue: 0,
-                    action: "1-1-18-1-2兑换支付弹窗-支付按钮-支付失败确认（曝光）",
-                    floorId: e.popupFloorInfo.floorId,
-                    rese2: window.localStorage.getItem("payBusinessCode") || "",
-                    rese4: window.localStorage.getItem("payprice") || ""
-                  }), e.reportCoreUserPayErrorEvent()) : e.queryPaySatus(), e.firstNum++;
-                }, 1e3));else {
-                  e.loopFindOrder && (clearInterval(e.loopFindOrder), e.firstNum = 0), e.$parent.dialogType = 1, e.$parent.refreshTimeFunction();
-                  try {
-                    b.A.recordEventAction({
-                      pageName: "云分发活动模板页面",
-                      eventType: "clouddistribute_64",
-                      rese8: "曝光 云分发活动模板页面-支付成功",
-                      rese2: window.location.href,
-                      rese1: e.activityId,
-                      rese3: e.popupFloorInfo.activityName,
-                      rese4: e.activityInfo.pageId,
-                      labelName: e.popupFloorInfo.floorName,
-                      topicName: e.popupFloorInfo.floorId,
-                      indexno: e.popupFloorInfo.floorType,
-                      rese9: e.popupFloorInfo.floorName,
-                      rese19: 1,
-                      rese10: window.localStorage.getItem("payBusinessCode") || "",
-                      rese16: window.localStorage.getItem("payprice") || ""
-                    }), b.A.newrecordEventAction({
-                      eventContent: "1-1-18-1-1",
-                      activityId: e.activityId,
-                      type: 1,
-                      opValue: 0,
-                      action: "1-1-18-1-1兑换支付弹窗-支付按钮-支付成功确认（曝光）",
-                      floorId: e.popupFloorInfo.floorId,
-                      rese2: window.localStorage.getItem("payBusinessCode") || "",
-                      rese4: window.localStorage.getItem("payprice") || ""
-                    });
-                  } catch (e) {}
-                }
-                window.localStorage.removeItem("gotoPay");
-              } else e.$parent.dialogType = 0, F.A.popMessageNew(t.data.message), window.localStorage.removeItem("gotoPay");
-              e.isGotoquery = false;
-            }).catch(function (e) {});
-          },
-          getQueryString: function (e) {
-            for (var t, o, a, n = [], r = (location.search.length > 0 ? location.search.substring(1) : "").split("&"), i = 0, s = r.length; i < s; i++) t = r[i].split("="), o = decodeURIComponent(t[0]), a = decodeURIComponent(t[1]), e == o && n.push(a);
-            return n.length > 0 ? n[n.length - 1] : "";
-          },
-          getPrice: function (e) {
-            return e ? e.saleChargeId ? e.salePrice / 100 : e.price / 100 : "";
-          },
-          clickPay: function () {
-            if (!window.localStorage.getItem("userId")) return MiguplayUtils.user.gotoLogin(), void localStorage.setItem("my_login_back", "im_go_login");
-            var e = JSON.parse(v()(this.onlyonePayInfo));
-            e.selType = this.selType;
-            var t = e.saleChargeId ? e.saleChargeId : e.chargeId;
-            window.localStorage.setItem("payBusinessCode", t), window.localStorage.setItem("payprice", this.getPrice(this.onlyonePayInfo));
-            try {
-              b.A.recordEventAction({
-                pageName: "云分发活动模板页面",
-                eventType: "clouddistribute_63",
-                rese8: "点击 云分发活动模板页面-元宝支付弹窗-立即支付",
-                rese2: window.location.href,
-                rese1: this.activityId,
-                rese3: this.popupFloorInfo.activityName,
-                rese4: this.activityInfo.pageId,
-                labelName: this.popupFloorInfo.floorName,
-                topicName: this.popupFloorInfo.floorId,
-                indexno: this.popupFloorInfo.floorType,
-                rese9: this.popupFloorInfo.floorName,
-                rese10: window.localStorage.getItem("payBusinessCode") || "",
-                rese16: window.localStorage.getItem("payprice") || ""
-              }), b.A.newrecordEventAction({
-                eventContent: "1-1-18-1",
-                activityId: this.activityId,
-                type: 2,
-                opValue: 0,
-                action: "1-1-18-1兑换支付弹窗-支付按钮（点击）",
-                floorId: this.popupFloorInfo.floorId,
-                rese2: window.localStorage.getItem("payBusinessCode") || "",
-                rese4: window.localStorage.getItem("payprice") || ""
-              });
-            } catch (e) {}
-            this.placeOrder(e);
-          },
-          queryPayLimit: function (e) {
-            return (0, y.A)(N().mark(function t() {
-              var o, a, n, r, i, s;
-              return N().wrap(function (t) {
-                for (;;) switch (t.prev = t.next) {
+            return (0, f.A)(m().mark(function i() {
+              var o, n, s;
+              return m().wrap(function (i) {
+                for (;;) switch (i.prev = i.next) {
                   case 0:
-                    return o = e.saleChargeId ? e.salePrice : e.price, a = {
-                      data: {
-                        money: o
-                      }
-                    }, t.next = 4, T.A.queryPayLimitForPay(a);
-                  case 4:
-                    if (n = t.sent, r = n.data, i = r.returnCode, r.resultData, r.message, "020206" != i) {
-                      t.next = 12;
-                      break;
-                    }
-                    return s = "".concat(_.A.H5_HOST_URL, "/middleh5/teenagerSetting?limitType=3&teenagerPayLimitFromPage=5"), window.location.href = s, t.abrupt("return", false);
-                  case 12:
-                    return t.abrupt("return", true);
-                  case 13:
-                  case "end":
-                    return t.stop();
-                }
-              }, t);
-            }))();
-          },
-          placeOrder: function (e) {
-            var t = this;
-            return (0, y.A)(N().mark(function o() {
-              return N().wrap(function (o) {
-                for (;;) switch (o.prev = o.next) {
-                  case 0:
-                    if (window.sessionStorage.setItem("packageInfo", v()(e)), t.consent) {
-                      o.next = 5;
-                      break;
-                    }
-                    return F.A.popMessageNew("请阅读并同意《元宝订购服务协议》"), o.abrupt("return", false);
-                  case 5:
-                    return o.next = 7, t.queryPayLimit(e);
-                  case 7:
-                    if (o.sent) {
-                      o.next = 9;
-                      break;
-                    }
-                    return o.abrupt("return");
-                  case 9:
-                    3 == t.selType && t.generatePhonePayOrder(e), 1 != t.selType && 2 != t.selType || t.otherOrder(e), 4 == t.selType && t.integralOrder(e), 4 != t.selType && t.closePop();
-                  case 13:
-                  case "end":
-                    return o.stop();
-                }
-              }, o);
-            }))();
-          },
-          generatePhonePayOrder: function (e) {
-            var t = this,
-              o = {
-                data: {
-                  cType: +this.$route.query.cType,
-                  configId: e.id,
-                  combinaActivityId: "HDMB_" + this.activityId
-                }
-              };
-            T.A.generatePhonePayOrder(o).then(function (o) {
-              if ("000000" === o.data.returnCode) {
-                var a,
-                  n,
-                  r,
-                  i,
-                  s,
-                  l,
-                  c,
-                  p,
-                  d,
-                  u,
-                  y,
-                  g,
-                  I,
-                  f = o.data.resultData,
-                  h = f.cipherText.split("/");
-                window.localStorage.setItem("payType", "3"), window.localStorage.setItem("payOrderid", f.orderId), window.localStorage.setItem("gotoPay", t.$route.name);
-                var m = encodeURIComponent(MiguplayUtils.url.moveQueryInfo(["pay", "xml", "orderId"])),
-                  w = _.A.payMsgDemand,
-                  v = e.saleChargeId ? e.salePrice : e.price,
-                  P = e.saleChargeId ? e.saleChargeId : e.chargeId,
-                  S = "test" == _.A.envConfig ? "http://h5test.migufun.com:8008" : "https://www.migufun.com",
-                  N = C()(a = C()(n = C()(r = C()(i = C()(s = C()(l = C()(c = C()(p = C()(d = C()(u = C()(y = C()(g = C()(I = "".concat(S, "/miguplay/html/miniPay/index.html?channelCode=")).call(I, h[0], "&spServCode=")).call(g, h[1], "&itemID=")).call(y, P, "&productID=&cxCode=")).call(u, w.contentId, "&contentID=")).call(d, h[1], "&cpID=")).call(p, h[3], "&spCode=")).call(c, h[4], "&payType=2&operCode=01&fee=")).call(l, v, "&description=")).call(s, e.packageName, "&orderId=")).call(i, f.orderId, "&jsID=")).call(r, w.jsID, "&netId=")).call(n, w.netid, "&backUrl=")).call(a, m);
-                window.location.href = N;
-              }
-            }).catch(function (e) {});
-          },
-          otherOrder: function (e) {
-            var t = this;
-            window.localStorage.setItem("cloudBackUrl", window.location.href);
-            var o = {
-              data: {
-                combinaActivityId: "HDMB_" + this.activityId,
-                cType: +this.$route.query.cType,
-                configId: e.id,
-                payType: 1 == this.selType ? "WX" : "AP",
-                channelId: _.A.payMsg.channelId,
-                contentId: _.A.payMsg.contentId,
-                pageUrl: encodeURIComponent(MiguplayUtils.url.moveQueryInfo(["pay", "xml", "orderId"]))
-              }
-            };
-            T.A.voucherSubscribeH5(o).then(function (e) {
-              if ("000000" === e.data.returnCode) {
-                var o = e.data.resultData;
-                window.localStorage.setItem("payType", t.selType), window.localStorage.setItem("payOrderid", o.orderId), window.localStorage.setItem("gotoPay", t.$route.name);
-                var a = o.gwURL;
-                1 == t.selType && window.location.replace(a), 2 == t.selType && (window.location.href = a);
-              }
-            }).catch(function (e) {});
-          },
-          integralOrder: function (e) {
-            var t = this;
-            this.$parent.showLoading = true, this.productCode = e.saleChargeId ? e.saleChargeId : e.chargeId, this.productPrice = e.saleChargeId ? e.salePrice : e.price;
-            var o = {
-              data: {
-                cType: +this.$route.query.cType,
-                configId: e.id,
-                channelId: _.A.payMsg.channelId,
-                contentId: _.A.payMsg.contentId,
-                combinaActivityId: "HDMB_" + this.activityId
-              }
-            };
-            T.A.voucherSubscribeH5Byjf(o).then(function (o) {
-              if (o.data.returnCode && "000000" == o.data.returnCode) {
-                var a = o.data.resultData;
-                window.localStorage.setItem("payType", t.selType), window.localStorage.setItem("payOrderid", a.orderId), window.localStorage.setItem("gotoPay", t.$route.name);
-                var n = new Date(o.data.serverTime || ""),
-                  r = new Date(o.data.serverTime + 3e5 || ""),
-                  i = "" + n.getFullYear() + (n.getMonth() + 1 > 9 ? n.getMonth() + 1 : "0" + (n.getMonth() + 1)) + (n.getDate() > 9 ? n.getDate() : "0" + n.getDate()),
-                  s = "" + (n.getHours() > 9 ? n.getHours() : "0" + n.getHours()) + (n.getMinutes() > 9 ? n.getMinutes() : "0" + n.getMinutes()) + (n.getSeconds() > 9 ? n.getSeconds() : "0" + n.getSeconds()),
-                  l = "" + r.getFullYear() + (r.getMonth() + 1 > 9 ? r.getMonth() + 1 : "0" + (r.getMonth() + 1)) + (r.getDate() > 9 ? r.getDate() : "0" + r.getDate()),
-                  c = "" + (r.getHours() > 9 ? r.getHours() : "0" + r.getHours()) + (r.getMinutes() > 9 ? r.getMinutes() : "0" + r.getMinutes()) + (r.getSeconds() > 9 ? r.getSeconds() : "0" + r.getSeconds());
-                t.transactionId = a.cmftOrderId || "", t.gwURL = a.cmftPayNotifyUrl || "", t.totalAmount = (t.productPrice / 100).toFixed(2) + "" || "", t.productPrice = t.productPrice / 1 || "", t.integralMercNo = _.A.payMsgIntegral.integralMercNo || "", t.tradeDate = i || "", t.tradeTime = s || "", t.integralFlag = "1", t.expireDateTime = "" + l + c || "", t.getUserItem();
-              } else "060344" == o.data.returnCode ? (t.$parent.showLoading = false, F.A.popMessageNew("手机号不支持")) : (t.$parent.showLoading = false, t.closePop(), F.A.popMessageNew("下单失败")), t.reportCoreUserPayErrorEvent({
-                errorMsg: "金科-".concat("060344" == o.data.returnCode ? "手机号不支持" : "服务端下单失败"),
-                payBusinessCode: t.productCode,
-                payPrice: t.productPrice,
-                payPackageName: null == e ? undefined : e.packageName,
-                voucherNum: null == e ? undefined : e.voucherNum,
-                reason: o.data.message
-              });
-            });
-          },
-          sendPaySdk: function () {
-            var e = JSON.parse(window.sessionStorage.getItem("packageInfo")),
-              t = this;
-            migupaysdk.prePay(this.paystr(), function (o, a, n, r, i, s, l) {
-              t.$parent.showLoading = false, t.closePop(), o && "8000000000" === o.resultCode ? (l = l.replace(/\+/g, "%2B"), window.location.href = l) : (F.A.popMessageNew("收银台异常"), t.reportCoreUserPayErrorEvent({
-                errorMsg: "金科-收银台异常",
-                payBusinessCode: (null == e ? undefined : e.saleChargeId) || (null == e ? undefined : e.chargeId),
-                payPrice: null != e && e.saleChargeId ? null == e ? undefined : e.salePrice : null == e ? undefined : e.price,
-                payType: null == e ? undefined : e.selType,
-                payPackageName: null == e ? undefined : e.packageName,
-                voucherNum: null == e ? undefined : e.voucherNum,
-                jinKePayResult: {
-                  result: o,
-                  upResultCode: a,
-                  upResultMsg: n,
-                  outTradeNo: r,
-                  tradeNo: i,
-                  tradeDate: s,
-                  jumpUrl: l
-                }
-              }));
-            });
-          },
-          paystr: function () {
-            var e = {};
-            return e.netId = _.A.NET_ID, e.channelCode = "hydaoju001", e.companyId = "14", e.productLine = "30", e.tradeNo = this.transactionId, e.totalAmount = this.totalAmount, e.subject = "云支付", e.tradeDate = this.tradeDate, e.tradeTime = this.tradeTime, e.expireMinutes = this.expireDateTime, e.notifyUrl = this.gwURL, e.pageNotifyUrl = window.location.href, e.paymentScene = "wap", e.integralFlag = this.integralFlag, e.provinceCode = "MG05", e.integralMercNo = this.integralMercNo, e.productList = this.productCode ? [{
-              productCode: this.productCode,
-              price: this.totalAmount
-            }] : "", e.smsFlag = "0", e.mobileNo = this.userItem, v()(e);
-          },
-          getUserItem: function () {
-            var e = this;
-            return (0, y.A)(N().mark(function t() {
-              var o, a, n, r;
-              return N().wrap(function (t) {
-                for (;;) switch (t.prev = t.next) {
-                  case 0:
-                    return JSON.parse(window.sessionStorage.getItem("packageInfo")), o = {
-                      data: {},
-                      headers: {}
-                    }, t.next = 4, T.A.getUserItem(o);
-                  case 4:
-                    if (a = t.sent, !(n = a.data) || "000000" != n.returnCode) {
-                      t.next = 22;
-                      break;
-                    }
-                    if (r = MiguplayUtils.crypto.decryptPhone(n.resultData.item1, n.resultData.item2)) {
-                      t.next = 17;
-                      break;
-                    }
-                    return e.$parent.showLoading = false, e.closePop(), F.A.popMessageNew("网络异常"), t.abrupt("return", false);
-                  case 17:
-                    return e.userItem = r, e.sendPaySdk(), t.abrupt("return", true);
-                  case 20:
-                    t.next = 26;
+                    i.t0 = t, i.next = "checkPrize" === i.t0 ? 3 : "copyDownloadLink" === i.t0 ? 6 : "acceptInvite" === i.t0 ? 10 : "confirm" === i.t0 ? 13 : 15;
                     break;
-                  case 22:
-                    return e.$parent.showLoading = false, e.closePop(), F.A.popMessageNew("网络异常"), t.abrupt("return", false);
-                  case 26:
+                  case 3:
+                    return e.goRuleAndReward(), e.$parent.closeInviteDetail(), i.abrupt("break", 16);
+                  case 6:
+                    return s = a()(o = a()(n = "MGKY://".concat(e.info, "| 【")).call(n, e.activityInfo.pageName, ":")).call(o, e.errorCode, "】 复制这段文字前往咪咕快游APP或直接点击链接参与活动"), e.copyTextFun(s), i.abrupt("break", 16);
+                  case 10:
+                    return e.$parent.acceptInvite(), e.closeDialog(), i.abrupt("break", 16);
+                  case 13:
+                    return e.closeDialog(), i.abrupt("break", 16);
+                  case 15:
+                    return i.abrupt("break", 16);
+                  case 16:
                   case "end":
-                    return t.stop();
+                    return i.stop();
                 }
-              }, t);
+              }, i);
             }))();
           },
-          changeType: function (e) {
-            this.selType = e;
-          },
-          setconsent: function () {
-            this.consent = !this.consent;
-          },
-          closePop: function () {
-            this.consent = false, this.setShowPayPop(false);
-          },
-          gocloudPlayVoucherNew: function () {
-            window.localStorage.setItem("goPayShop", 1), b.A.recordEventAction({
-              pageName: "云分发活动模板页面",
-              eventType: "clouddistribute_62",
-              rese8: "点击 云分发活动模板页面-元宝支付弹窗-去充值",
-              rese2: window.location.href,
-              rese1: this.activityId,
-              rese3: this.popupFloorInfo.activityName,
-              rese4: this.activityInfo.pageId,
-              labelName: this.popupFloorInfo.floorName,
-              topicName: this.popupFloorInfo.floorId,
-              indexno: this.popupFloorInfo.floorType,
-              rese9: this.popupFloorInfo.floorName,
-              rese10: window.localStorage.getItem("payBusinessCode") || "",
-              rese16: window.localStorage.getItem("payprice") || ""
-            }), b.A.newrecordEventAction({
-              eventContent: "1-1-18-2",
-              activityId: this.activityId,
-              type: 2,
-              opValue: 0,
-              action: "1-1-18-2兑换支付弹窗-去充值（点击）",
-              floorId: this.popupFloorInfo.floorId,
-              rese2: window.localStorage.getItem("payBusinessCode") || "",
-              rese4: window.localStorage.getItem("payprice") || ""
+          copyTextFun: function (t) {
+            this.$copyText(t).then(function (t) {
+              P.A.popMessageNew("复制成功");
+            }, function (t) {
+              P.A.popMessageNew("复制失败");
             });
-            var e,
-              t,
-              o,
-              a,
-              n = MiguplayUtils.url.getQueryString("appChannel") || "";
-            MiguplayUtils.appUtils.isMiguApp() ? window.location.href = "youplay://webview?url=" + _.A.H5_HOST_URL + C()(e = "/miguplay/html/cloudPlayVoucherNew/payForH5?appRese=10&chargeId=".concat(null === (t = this.onlyonePayInfo) || undefined === t ? undefined : t.chargeId)).call(e, n ? "&appChannel=" + n : "") : window.location.href = _.A.H5_HOST_URL + C()(o = "/miguplay/html/cloudPlayVoucherNew/payForH5?appRese=10&chargeId=".concat(null === (a = this.onlyonePayInfo) || undefined === a ? undefined : a.chargeId)).call(o, n ? "&appChannel=" + n : "");
           },
-          jumpToQuestion: function (e) {
-            "rule" == e ? MiguplayUtils.appUtils.isMiguApp() ? window.location.href = "youplay://webview?url=" + _.A.ruleUrl + _.A.pactId : window.location.href = _.A.ruleUrl + _.A.pactId : "question" == e && (MiguplayUtils.appUtils.isMiguApp() ? window.location.href = "youplay://webview?url=" + _.A.ruleUrl + _.A.questionId : window.location.href = _.A.ruleUrl + _.A.questionId);
+          allOrder: function () {
+            S.A.recordEventAction({
+              eventType: "clouddistribute_55",
+              rese8: "点击 云分发活动模板页面-排行榜楼层-奖品列表弹窗-全部领取按钮",
+              pageName: "排行榜楼层",
+              rese1: this.activityInfo.activityId,
+              rese2: window.location.href,
+              rese3: this.activityInfo.activityName,
+              rese4: MG.utils.getQueryString("pageid") || "",
+              labelName: this.$parent.floorInfo.floorName,
+              topicName: this.$parent.floorInfo.floorId,
+              indexno: this.$parent.floorInfo.floorType,
+              rese9: "排行榜楼层"
+            }), this.closeDialog(), 1 == this.dialogInfo.nkProvince ? this.$emit("needSureOrder", {
+              shortType: "nkProvince",
+              prizeList: this.dialogInfo.prizeList
+            }) : 1 == this.dialogInfo.subscribeFlag ? this.$emit("needSureOrder", {
+              shortType: "subscribeFlag",
+              prizeList: this.dialogInfo.prizeList
+            }) : this.$emit("orderPrizes");
           },
-          reportCoreUserPayErrorEvent: function (e) {
-            var t = JSON.parse(window.sessionStorage.getItem("packageInfo") || "{}");
-            (0, M.U)(D({
-              errorMsg: "订购失败",
-              activityId: this.activityId || "",
-              activityName: this.popupFloorInfo.activityName || "",
-              pageId: this.activityInfo.pageId || "",
-              floorName: this.popupFloorInfo.floorName || "",
-              floorId: this.popupFloorInfo.floorId || "",
-              floorType: this.popupFloorInfo.floorType || "",
-              orderId: window.localStorage.getItem("payorderid") || this.$route.query.payorderid || "",
-              payBusinessCode: (null == t ? undefined : t.saleChargeId) || (null == t ? undefined : t.chargeId) || "",
-              payPackageName: null == t ? undefined : t.packageName,
-              payType: window.localStorage.getItem("payType"),
-              payPrice: null != t && t.saleChargeId ? null == t ? undefined : t.salePrice : null == t ? undefined : t.price
-            }, e));
+          editAdress: function () {
+            var t,
+              e = this;
+            S.A.recordEventAction({
+              eventType: "clouddistribute_57",
+              rese8: "点击 云分发活动模板页面-排行榜楼层-地址填写弹窗-地址填写按钮",
+              pageName: "排行榜楼层",
+              rese1: this.activityInfo.activityId,
+              rese2: window.location.href,
+              rese3: this.activityInfo.activityName,
+              rese4: MG.utils.getQueryString("pageid") || "",
+              labelName: this.$parent.floorInfo.floorName,
+              topicName: this.$parent.floorInfo.floorId,
+              indexno: this.$parent.floorInfo.floorType,
+              rese9: "排行榜楼层"
+            });
+            var i = [];
+            z()(t = this.dialogInfo.prizeList).call(t, function (t) {
+              i.push(t.recordId);
+            });
+            var o = this.activityInfo.addressDeadLineDay ? 6 : 0,
+              a = this.dialogInfo.prizeList[0].recordId,
+              n = this.activityInfo.activityFlag,
+              s = this.activityInfo.activityId,
+              r = i.toString();
+            MiguplayUtils.address.chooseAddress({
+              isNeedSave: true,
+              activityType: o,
+              relationId: a,
+              activityFlag: n,
+              activityId: s,
+              isLuckDraw: false,
+              iframeDom: "",
+              isRankList: true,
+              relationIds: r
+            }).then(function (t) {
+              e.$parent.selAddress(e.dialogInfo);
+            });
+          },
+          voucherDraw: function (t) {
+            14 == t ? this.$emit("voucherDraw") : 17 == t && this.$emit("checkMultipleDraw"), this.closeDialog();
+          },
+          toCertifiedIntro: function () {
+            var t,
+              e = MiguplayUtils.url.getQueryString("appChannel");
+            P.A.jumpUrl(a()(t = "".concat(M.A.certifyURL, "/certify/intro?appChannel=")).call(t, e), 1), this.closeDialog();
+          },
+          toCertify: function () {
+            var t,
+              e = MiguplayUtils.url.getQueryString("appChannel");
+            P.A.jumpUrl(a()(t = "".concat(M.A.certifyURL, "/certify?appChannel=")).call(t, e), 1), this.closeDialog();
+          },
+          toCertifySuccess: function () {
+            var t,
+              e = MiguplayUtils.url.getQueryString("appChannel");
+            27 === this.type ? ((0, G.Rs)({
+              eventKey: "1-1-35-2"
+            }), b()(function () {
+              var t;
+              P.A.jumpUrl(a()(t = "".concat(M.A.certifyURL, "/certify/success?appChannel=")).call(t, e), 1);
+            }, 500)) : P.A.jumpUrl(a()(t = "".concat(M.A.certifyURL, "/certify/success?appChannel=")).call(t, e), 1);
+            this.closeDialog();
+          },
+          iAgree: function () {
+            var t = this;
+            this.showLoading = true;
+            var e = {
+              data: {
+                provinceFlag: E.A.state.user.provinceFlag
+              }
+            };
+            N.A.commitUserCertificationByProvinceAuth(e).then(function (e) {
+              t.showLoading = false, t.closeDialog(), "000000" == e.data.returnCode && "0" == e.data.resultData.code ? (MiguplayUtils.layer.toast("实名认证成功", 1500), b()(function () {
+                window.location.reload();
+              }, 1e3)) : ("020147" == e.data.returnCode || e.data.resultData.code, MiguplayUtils.layer.toast("查询失败，请重新认证！", 1500), b()(function () {
+                t.toCertify();
+              }, 1e3));
+            });
+          },
+          toVerify: function (t) {
+            (0, O.ah)({
+              eventKey: "clouddistribute_76",
+              floorName: this.floorInfo.floorName,
+              floorId: this.floorInfo.floorId
+            }), P.A.jumpUrl(t, 1), this.closeDialog();
+          },
+          manageMzone: function (t) {
+            t.otherNetJumpUrl && P.A.openUrl(t.otherNetJumpUrl, {
+              ssoType: t.ssoType,
+              ssoParams: t.ssoParams
+            }, null, this.floorInfo, this.activityInfo.activityId, ""), this.closeDialog();
+          },
+          notFinishUrlJump: function () {
+            this.closeDialog(), this.$parent.notStandNoJumpTypeHandle(this.gotoInfo);
           }
-        })
+        }
       },
-      x = (0, o(14486).A)(U, function () {
-        var e = this,
-          t = e._self._c;
-        return t("div", {
-          staticClass: "PayForYuanbaoPopup"
-        }, [t("div", {
-          staticClass: "popup"
-        }, [t("div", {
-          staticClass: "closeBtn",
+      K = q,
+      V = (0, i(14486).A)(K, function () {
+        var t,
+          e,
+          i = this,
+          o = i._self._c;
+        return o("div", [o("div", {
+          directives: [{
+            name: "show",
+            rawName: "v-show",
+            value: i.isShow,
+            expression: "isShow"
+          }],
+          staticClass: "dialog-panle",
           on: {
-            click: e.closePop
+            click: function (t) {
+              return t.target !== t.currentTarget ? null : i.closeDialog("mantle");
+            }
           }
-        }), e._v(" "), e.onlyonePayInfo && e.onlyonePayInfo.notFinishDesc ? t("h2", [e._v(e._s(e.onlyonePayInfo.notFinishDesc ? e.onlyonePayInfo.notFinishDesc : ""))]) : e._e(), e._v(" "), t("div", {
-          staticClass: "yuanbaoNumBox",
+        }, [1 == i.type || 21 == i.type || 28 == i.type ? [o("div", {
+          staticClass: "dialog-container normal-dialog"
+        }, [o("img", {
+          staticClass: "dialog-img",
+          attrs: {
+            src: i.dialogBgImg ? i.dialogBgImg : i.defaultNormalDiaLog
+          }
+        }), i._v(" "), o("h1", [i._v(i._s(i.title))]), i._v(" "), o("span", {
+          staticClass: "close",
           on: {
-            click: e.gocloudPlayVoucherNew
+            click: function (t) {
+              return i.closeDialog();
+            }
           }
-        }, [t("div", {
-          staticClass: "yuanbao"
-        }, [e._v(e._s(e.onlyonePayInfo.voucherNum ? e.onlyonePayInfo.voucherNum : "") + "个元宝")]), e._v(" "), t("div", {
-          staticClass: "money"
-        }, [t("span", {
-          staticClass: "dot"
-        }, [e._v("¥")]), e._v(" "), t("span", [e._v(e._s(e.getPrice(e.onlyonePayInfo)))])])]), e._v(" "), t("div", {
-          staticClass: "pay-type-box"
-        }, e._l(e.onlyonePayInfo.payTypeList && e.onlyonePayInfo.payTypeList.length > 0 ? e.onlyonePayInfo.payTypeList : [], function (o) {
-          return t("div", {
-            staticClass: "type-item",
+        }), i._v(" "), o("p", {
+          staticClass: "dialog-text"
+        }, [1 == i.type ? o("span", {
+          class: i.errorCode ? "errorCode" : ""
+        }, [i._v(i._s(i.errorCode ? i.errorCode : i.info))]) : o("span", {
+          staticClass: "info",
+          domProps: {
+            innerHTML: i._s(i.info)
+          }
+        })]), i._v(" "), 1 == i.type || 21 == i.type ? o("p", {
+          staticClass: "dialog-btn",
+          style: {
+            "background-color": i.activityInfo.color || "#01D692"
+          },
+          on: {
+            click: function (t) {
+              i.errorJumpType ? i.openMember() : i.closeDialog();
+            }
+          }
+        }, [i._v("\n          " + i._s(i.btnText ? i.btnText : "好的") + "\n        ")]) : i._e(), i._v(" "), 28 == i.type ? o("p", {
+          staticClass: "dialog-btn",
+          style: {
+            "background-color": i.activityInfo.color || "#01D692"
+          },
+          on: {
+            click: function (t) {
+              return i.openPlayGround();
+            }
+          }
+        }, [i._v("\n          " + i._s(i.btnText ? i.btnText : "好的") + "\n        ")]) : i._e()])] : i._e(), i._v(" "), 2 == i.type || 4 == i.type && i.isShow ? [o("div", {
+          staticClass: "dialog-container prize-dailog",
+          class: {
+            flex: 4 == i.type
+          }
+        }, [4 == i.type ? o("div", {
+          staticClass: "blind-animation"
+        }, [o("img", {
+          directives: [{
+            name: "show",
+            rawName: "v-show",
+            value: 4 == i.type && i.isShow,
+            expression: "type == 4 && isShow"
+          }],
+          staticClass: "reward-bg",
+          attrs: {
+            src: i.dialogBgImg.indexOf(".gif") > -1 ? i.dialogBgImg + "?".concat(Math.random()) : i.dialogBgImg,
+            alt: ""
+          }
+        }), i._v(" "), o("img", {
+          directives: [{
+            name: "show",
+            rawName: "v-show",
+            value: 4 == i.type && i.isShow,
+            expression: "type == 4 && isShow"
+          }],
+          staticClass: "reward-img",
+          attrs: {
+            src: i.rewardImg,
+            alt: ""
+          }
+        })]) : i._e(), i._v(" "), 2 == i.type ? [o("img", {
+          attrs: {
+            src: i.dialogBgImg.indexOf(".gif") > -1 ? i.dialogBgImg + "?".concat(Math.random()) : i.dialogBgImg,
+            alt: ""
+          }
+        }), i._v(" "), o("div", {
+          directives: [{
+            name: "show",
+            rawName: "v-show",
+            value: !i.giftState,
+            expression: "!giftState"
+          }],
+          staticClass: "firework-animation"
+        }), i._v(" "), i.openGridDialogDetail && i.openGridDialogDetail.secondFragments ? o("div", {
+          staticClass: "open-grid-floor-prize"
+        }, [o("div", {
+          staticClass: "list"
+        }, i._l(i.openGridDialogDetail.secondFragments, function (t, e) {
+          return o("div", {
+            key: e,
+            staticClass: "item"
+          }, [o("img", {
+            attrs: {
+              src: t.secondFragmentPic
+            }
+          })]);
+        }), 0), i._v(" "), o("div", {
+          staticClass: "msg"
+        }, [i._v(i._s(i.openGridDialogDetail.msg))])]) : i._e(), i._v(" "), o("p", {
+          staticClass: "prize-text"
+        }, [i.title ? o("span", {
+          staticClass: "title",
+          class: {
+            css_nowarp: i.isSecondGiftFlag
+          }
+        }, [i._v("已领取" + i._s(i.title))]) : i._e(), i._v(" "), o("span", {
+          staticClass: "info"
+        }, [i._v(i._s(i.info))]), i._v(" "), 31 == i.prizeType && null != i.dlcEffectiveTime && null != i.dlcExpireTime ? o("span", {
+          staticClass: "title"
+        }, [i._v("生效期：" + i._s(i.getEndTimeStamp(i.dlcEffectiveTime)) + " -\n              " + i._s(i.getEndTimeStamp(i.dlcExpireTime)))]) : i._e(), i._v(" "), 3 != i.prizeType || i.giftState ? i._e() : o("span", {
+          staticClass: "end-time"
+        }, [i._v("请在" + i._s(i.getDateTime(i.addressDeadLineDate, "d")) + "前填写地址")]), i._v(" "), i.isSecondGiftFlag ? o("span", {
+          staticClass: "infoSecondGift"
+        }, [i._v("请前往我的奖品分配")]) : i._e()]), i._v(" "), o("i", {
+          staticClass: "locationBtn-close",
+          class: i.isPc ? "pc" : "",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }), i._v(" "), i.prizeReceivedUrl && "" != i.prizeReceivedUrl && 3 != i.prizeType && 4 != i.prizeType ? [o("i", {
+          directives: [{
+            name: "show",
+            rawName: "v-show",
+            value: i.btnText && 2 == i.type && i.isShow,
+            expression: "btnText && type == 2 && isShow"
+          }],
+          staticClass: "locationBtn-tolistsignle",
+          style: {
+            "background-color": i.activityInfo.color || "#01D692"
+          },
+          on: {
+            click: function (t) {
+              return i.goPrizeReceivedUrl();
+            }
+          }
+        }, [i._v("\n              立即使用\n            ")])] : [3 == i.prizeType || 4 == i.prizeType ? [o("div", {
+          staticClass: "locationBtn-panel"
+        }, [2 == i.type && 3 == i.prizeType && i.prizeInfo && i.prizeInfo.address ? o("div", {
+          staticClass: "address-panel"
+        }, [o("p", {
+          staticClass: "top",
+          on: {
+            click: function (t) {
+              return t.stopPropagation(), i.toEditAddress(i.prizeInfo.recordId, 1, "choose");
+            }
+          }
+        }, [i._v("\n                    " + i._s(i.prizeInfo.address.deliveryName) + "\n                    "), o("span", [i._v(i._s(i.prizeInfo.address.deliveryPhone))]), i._v(" "), o("i", {
+          staticClass: "edit",
+          on: {
+            click: function (t) {
+              return t.stopPropagation(), i.toEditAddress(i.prizeInfo.recordId, 1, "choose");
+            }
+          }
+        })]), i._v(" "), o("p", [i._v("\n                    " + i._s(i.prizeInfo.address.locationAddress + i.prizeInfo.address.detailAddress) + "\n                  ")])]) : i._e(), i._v(" "), o("i", {
+          directives: [{
+            name: "show",
+            rawName: "v-show",
+            value: i.btnText && i.isShow,
+            expression: "btnText && isShow"
+          }],
+          staticClass: "locationBtn-tolist",
+          style: {
+            "background-color": i.activityInfo.color || "#00D792",
+            color: "#FFF"
+          },
+          on: {
+            click: function (t) {
+              return i.goRuleAndReward(3 == i.prizeType && 2 == i.type && i.prizeInfo && i.prizeInfo.address ? i.prizeInfo.recordId : "");
+            }
+          }
+        }, [i._v("\n                  查看我的奖品\n                ")]), i._v(" "), 4 != i.prizeType || i.gameId ? i._e() : o("i", {
+          directives: [{
+            name: "clipboard",
+            rawName: "v-clipboard:copy",
+            value: i.info,
+            expression: "info",
+            arg: "copy"
+          }, {
+            name: "clipboard",
+            rawName: "v-clipboard:success",
+            value: i.onCopy,
+            expression: "onCopy",
+            arg: "success"
+          }, {
+            name: "show",
+            rawName: "v-show",
+            value: i.btnText && i.isShow,
+            expression: "btnText && isShow"
+          }],
+          staticClass: "locationBtn-enter",
+          style: {
+            "background-color": i.activityInfo.color || "#01D692"
+          }
+        }, [i._v("\n                  复制\n                ")]), i._v(" "), 4 == i.prizeType && i.gameId ? o("i", {
+          directives: [{
+            name: "clipboard",
+            rawName: "v-clipboard:copy",
+            value: i.info,
+            expression: "info",
+            arg: "copy"
+          }, {
+            name: "clipboard",
+            rawName: "v-clipboard:success",
+            value: i.onCopy,
+            expression: "onCopy",
+            arg: "success"
+          }, {
+            name: "show",
+            rawName: "v-show",
+            value: i.btnText && i.isShow,
+            expression: "btnText && isShow"
+          }],
+          staticClass: "locationBtn-enter",
+          style: {
+            "background-color": i.activityInfo.color || "#01D692"
+          },
+          attrs: {
+            "data-gameId": i.gameId
+          }
+        }, [i._v("\n                  复制并兑换\n                ")]) : i._e(), i._v(" "), 3 == i.prizeType ? o("i", {
+          directives: [{
+            name: "show",
+            rawName: "v-show",
+            value: i.btnText && i.isShow,
+            expression: "btnText && isShow"
+          }],
+          staticClass: "locationBtn-enter",
+          style: {
+            "background-color": i.activityInfo.color || "#01D692"
+          },
+          on: {
+            click: function (t) {
+              i.giftState ? i.sureDialog() : i.toEditAddress(i.prizeInfo.recordId, 1);
+            }
+          }
+        }, [i._v("\n                  " + i._s(2 == i.type && i.prizeInfo && i.prizeInfo.address ? "确认收货地址" : i.btnText) + "\n                ")]) : i._e()])] : [o("i", {
+          directives: [{
+            name: "show",
+            rawName: "v-show",
+            value: i.isShow && !i.openGridDialogDetail,
+            expression: "isShow && !openGridDialogDetail"
+          }],
+          staticClass: "locationBtn-tolistsignle",
+          style: {
+            "background-color": i.activityInfo.color || "#00D792"
+          },
+          on: {
+            click: function (t) {
+              return i.goRuleAndReward();
+            }
+          }
+        }, [i._v("\n                查看我的奖品\n              ")])]]] : i._e()], 2)] : i._e(), i._v(" "), 3 == i.type ? [o("div", {
+          staticClass: "dialog-container get-giftBag-dialog"
+        }, [o("h1", {
+          staticClass: "get-giftBag-title"
+        }, [i._v(i._s(i.title))]), i._v(" "), o("p", {
+          staticClass: "get-giftBag-describe"
+        }, [i._v(i._s(i.info))]), i._v(" "), 31 == i.prizeType && null != i.dlcEffectiveTime && null != i.dlcExpireTime ? o("span", {
+          staticClass: "get-giftBag-describe"
+        }, [i._v("生效期：" + i._s(i.getEndTimeStamp(i.dlcEffectiveTime)) + " -\n          " + i._s(i.getEndTimeStamp(i.dlcExpireTime)))]) : i._e(), i._v(" "), o("p", {
+          staticClass: "get-giftBag-btn"
+        }, [o("span", {
+          staticClass: "dialog-btn whitegreen",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }, [i._v("确定")]), i._v(" "), o("span", {
+          staticClass: "dialog-btn darkGreen",
+          style: {
+            "background-color": i.activityInfo.color || "#01D692"
+          },
+          on: {
+            click: function (t) {
+              return i.sureDialog();
+            }
+          }
+        }, [i._v(i._s(i.btnText ? i.btnText : "启动游戏兑换"))])]), i._v(" "), i._m(0)])] : i._e(), i._v(" "), 5 == i.type ? [o("div", {
+          staticClass: "dialog-container open-member-dialog"
+        }, [o("span", {
+          staticClass: "open-member-close",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }), i._v(" "), o("h1", [i._v(i._s(i.title))]), i._v(" "), o("img", {
+          attrs: {
+            src: i.defaultOpenVipBg,
+            alt: ""
+          }
+        }), i._v(" "), o("p", {
+          staticClass: "member-info"
+        }, [i._v(i._s(i.info))]), i._v(" "), 31 == i.prizeType && null != i.dlcEffectiveTime && null != i.dlcExpireTime ? o("span", {
+          staticClass: "member-info"
+        }, [i._v("生效期：" + i._s(i.getEndTimeStamp(i.dlcEffectiveTime)) + " -\n          " + i._s(i.getEndTimeStamp(i.dlcExpireTime)))]) : i._e(), i._v(" "), i.memberDialogInfo ? [o("p", {
+          staticClass: "member-get member-btn",
+          style: {
+            "background-color": i.activityInfo.color || "#01D692"
+          },
+          on: {
+            click: function (t) {
+              return i.getMember(i.memberDialogInfo);
+            }
+          }
+        }, [i._v("\n            立即领取\n          ")])] : [i._m(1)]], 2)] : i._e(), i._v(" "), 6 == i.type || 7 == i.type ? [o("div", {
+          staticClass: "doubleconfirm-dialog"
+        }, [o("div", {
+          staticClass: "dialog-text"
+        }, [o("span", {
+          staticClass: "title"
+        }, [i._v(i._s(i.title))]), i._v(" "), 6 == i.type && 1 == i.info.length ? o("div", {
+          staticClass: "doubleConfirm",
+          on: {
+            touchmove: function (t) {
+              t.stopPropagation();
+            }
+          }
+        }, [i._v("\n            " + i._s(i.info[0].doubleConfirm) + "\n          ")]) : i._e(), i._v(" "), 6 == i.type && i.info.length > 1 ? o("div", {
+          staticClass: "doubleConfirm",
+          on: {
+            touchmove: function (t) {
+              t.stopPropagation();
+            }
+          }
+        }, i._l(i.info, function (t, e) {
+          return o("div", {
+            key: e,
+            staticClass: "content"
+          }, [i._v("\n              " + i._s(t.prizeName) + ":"), o("br"), i._v(i._s(t.doubleConfirm) + "\n            ")]);
+        }), 0) : i._e(), i._v(" "), 7 == i.type ? o("span", {
+          staticClass: "info"
+        }, [i._v(i._s(i.info))]) : i._e()]), i._v(" "), 6 == i.type ? o("p", {
+          staticClass: "dialog-btn",
+          style: {
+            "background-color": i.activityInfo.color || "#01D692"
+          },
+          on: {
+            click: function (t) {
+              return i.doubleConfirm();
+            }
+          }
+        }, [i._v("\n          确认领取\n        ")]) : i._e(), i._v(" "), 7 == i.type ? o("p", {
+          staticClass: "dialog-btn",
+          style: {
+            "background-color": i.activityInfo.color || "#01D692"
+          },
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }, [i._v("\n          确认\n        ")]) : i._e(), i._v(" "), o("span", {
+          staticClass: "close",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        })])] : i._e(), i._v(" "), 8 == i.type ? [o("div", {
+          staticClass: "dialog-container redPacketDialog"
+        }, [o("div", {
+          staticClass: "dialogTop"
+        }, [i._v("是否放弃所有红包雨")]), i._v(" "), o("div", {
+          staticClass: "dialogCenter"
+        }, [i._v("放弃后, 将无法领取红包雨奖励")]), i._v(" "), o("div", {
+          staticClass: "dialogBottom"
+        }, [o("div", {
+          style: {
+            color: i.activityInfo.color || "#01D692",
+            backgroundColor: "".concat(i.myRgba())
+          },
+          on: {
+            click: function (t) {
+              return i.$emit("clickEnter");
+            }
+          }
+        }, [i._v("\n            确认放弃\n          ")]), i._v(" "), o("div", {
+          style: {
+            backgroundColor: i.activityInfo.color || "#01D692",
+            color: "#ffffff"
+          },
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }, [i._v("\n            我再想想\n          ")])])])] : i._e(), i._v(" "), 9 == i.type ? [o("div", {
+          staticClass: "dialog-container goApp-dialog"
+        }, [o("h1", [i._v(i._s(i.title))]), i._v(" "), o("h2", {
+          staticClass: "dialog-text"
+        }, [o("div", {
+          staticClass: "infoBox"
+        }, [i._v(i._s(i.info))]), i._v(" "), i.downloadUrl ? o("div", {
+          staticClass: "downloadUrlBox"
+        }, [o("div", [i._v("下载链接:")]), i._v(" "), o("div", [i._v(i._s(i.downloadUrl))])]) : i._e()]), i._v(" "), o("div", {
+          staticClass: "btnBox"
+        }, [o("p", {
+          staticClass: "dialog-btn cancel",
+          style: {
+            "background-color": "".concat(i.myRgba(.1)),
+            color: i.activityInfo.color || "#00D792"
+          },
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }, [i._v("\n            取消\n          ")]), i._v(" "), o("p", {
+          staticClass: "dialog-btn",
+          style: {
+            "background-color": i.activityInfo.color || "#00D792"
+          },
+          on: {
+            click: i.clickGoAppBtn
+          }
+        }, [i._v("\n            " + i._s(i.btnText) + "\n          ")])])])] : i._e(), i._v(" "), 10 == i.type ? [o("div", {
+          staticClass: "dialog-container doubleCheck"
+        }, [o("h1", [i._v(i._s(i.title))]), i._v(" "), o("span", {
+          staticClass: "close",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }), i._v(" "), o("h2", {
+          staticClass: "dialog-text"
+        }, [o("div", [o("span", [i._v(i._s("请确认是否消耗".concat(i.dialogInfo.cloudBeanNum, "个")))]), i._v(" "), o("img", {
+          staticClass: "iconBg",
+          attrs: {
+            src: i.dialogInfo.iconBg
+          }
+        }), i._v(" "), o("span", [i._v("领取" + i._s(i.dialogInfo.prizeName))])])]), i._v(" "), o("p", {
+          staticClass: "dialog-btn",
+          style: {
+            "background-color": i.activityInfo.color || "#00D792"
+          },
+          on: {
+            click: i.clickDoubleCheckBtn
+          }
+        }, [i._v("\n          " + i._s(i.btnText) + "\n        ")])])] : i._e(), i._v(" "), 11 == i.type ? [o("div", {
+          attrs: {
+            id: "svgaBox-out"
+          }
+        }, [o("div", {
+          directives: [{
+            name: "show",
+            rawName: "v-show",
+            value: i.svgaShow || true,
+            expression: "svgaShow||true"
+          }],
+          attrs: {
+            id: "svgaBox"
+          }
+        })]), i._v(" "), i.svgaShow ? i._e() : o("div", {
+          staticClass: "dialog-container gifDialog"
+        }, [o("span", {
+          staticClass: "close",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }), i._v(" "), o("h1", [i._v(i._s(i.title))]), i._v(" "), o("img", {
+          staticClass: "dialog-img",
+          attrs: {
+            src: i.dialogBgImg ? i.dialogBgImg : i.defaultNormalDiaLog
+          }
+        }), i._v(" "), o("h2", {
+          staticClass: "dialog-text"
+        }, [o("span", {
+          class: i.errorCode ? "errorCode" : ""
+        }, [i._v(i._s(i.errorCode ? i.errorCode : i.info))])]), i._v(" "), 31 == i.prizeType && null != i.dlcEffectiveTime && null != i.dlcExpireTime ? o("span", {
+          staticClass: "dialog-text"
+        }, [i._v("生效期：" + i._s(i.getEndTimeStamp(i.dlcEffectiveTime)) + " -\n          " + i._s(i.getEndTimeStamp(i.dlcExpireTime)))]) : i._e(), i._v(" "), o("p", {
+          staticClass: "dialog-btn",
+          style: {
+            "background-color": i.activityInfo.color || "#00D792"
+          },
+          on: {
+            click: function (t) {
+              return i.goRuleAndReward();
+            }
+          }
+        }, [i._v("\n          " + i._s(i.btnText) + "\n        ")])])] : i._e(), i._v(" "), 12 == i.type ? [o("div", {
+          staticClass: "dialog-container txt-dialog"
+        }, [o("span", {
+          staticClass: "close",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }), i._v(" "), i.dialogBgImg ? o("p", {
+          staticClass: "head-icon",
+          style: i.dialogBgImg
+        }) : i._e(), i._v(" "), o("h1", [i._v(i._s(i.title))]), i._v(" "), i.errorCode ? o("p", {
+          staticClass: "message"
+        }, [i._v(i._s("活动链接：" + i.errorCode))]) : i._e(), i._v(" "), o("p", {
+          staticClass: "dialog-text",
+          class: i.button[0]
+        }, [i._v("\n          " + i._s(i.info) + "\n        ")]), i._v(" "), 31 == i.prizeType && null != i.dlcEffectiveTime && null != i.dlcExpireTime ? o("span", {
+          staticClass: "dialog-text"
+        }, [i._v("生效期：" + i._s(i.getEndTimeStamp(i.dlcEffectiveTime)) + " -\n          " + i._s(i.getEndTimeStamp(i.dlcExpireTime)))]) : i._e(), i._v(" "), o("div", i._l(i.button, function (t, e) {
+          return o("b", {
+            key: e,
+            class: t,
+            style: {
+              "background-color": i.activityInfo.color || "#01D692"
+            },
             on: {
-              click: function (t) {
-                return e.changeType(o.type);
+              click: function (e) {
+                return e.target !== e.currentTarget ? null : i.clickButtonGroup(t);
               }
             }
-          }, [t("div", {
-            staticClass: "left-cont"
-          }, [t("i", {
-            staticClass: "type-icon",
-            class: "icon_" + o.type
-          }), e._v(" "), t("span", [e._v(e._s(o.name))])]), e._v(" "), t("div", {
-            staticClass: "right-cont"
-          }, [e.selType == o.type ? t("i", {
-            staticClass: "seled"
-          }) : t("i", {
-            staticClass: "no-sel"
-          })])]);
-        }), 0), e._v(" "), t("div", {
-          staticClass: "payBtn",
+          }, [i._v("\n            " + i._s(i.buttonGroup[t]) + "\n          ")]);
+        }), 0)])] : i._e(), i._v(" "), 13 == i.type ? [o("div", {
+          staticClass: "dialog-container rankList-orderPrize-dialog",
+          style: i.dialogBgImg ? "background-image: url(" + i.dialogBgImg + ");" : ""
+        }, [o("span", {
+          staticClass: "close",
           on: {
             click: function (t) {
-              return e.debounceSelAct();
+              return i.closeDialog();
             }
           }
-        }, [t("span", [e._v("立即支付")]), e._v(" "), t("span", [e._v(e._s(e.getPrice(e.onlyonePayInfo)) + "元")])]), e._v(" "), t("div", {
-          staticClass: "explain-content"
-        }, [t("div", {
-          staticClass: "userprotocol"
-        }, [t("i", {
+        }), i._v(" "), o("div", {
+          staticClass: "title"
+        }, [i._v(i._s(i.dialogInfo.title))]), i._v(" "), i.dialogInfo.info ? o("div", {
+          staticClass: "infos"
+        }, [i._v(i._s(i.dialogInfo.info))]) : i._e(), i._v(" "), i.dialogInfo.prizeList && i.dialogInfo.prizeList.length > 0 ? o("div", {
+          staticClass: "prizeList"
+        }, [o("ul", [o("li", {
+          key: "0",
+          staticClass: "gauge-outfit"
+        }, [i.dialogInfo.multiRank ? o("span", {
+          staticClass: "row-item rankType"
+        }, [i._v("榜单")]) : i._e(), i._v(" "), o("span", {
+          staticClass: "row-item rankEndTime"
+        }, [i._v("结束时间")]), i._v(" "), o("span", {
+          staticClass: "row-item rank"
+        }, [i._v("排名")]), i._v(" "), o("span", {
+          staticClass: "row-item prizeName"
+        }, [i._v("奖励")])]), i._v(" "), o("div", {
+          staticClass: "list-box"
+        }, i._l(i.dialogInfo.prizeList, function (t, e) {
+          return o("li", {
+            key: e + 1,
+            class: e <= 2 ? "top-three" : ""
+          }, [i.dialogInfo.multiRank ? o("span", {
+            staticClass: "row-item rankType"
+          }, [i._v(i._s(i._f("handleRankType")(t.rankType)))]) : i._e(), i._v(" "), o("span", {
+            staticClass: "row-item rankEndTime"
+          }, [i._v(i._s(i._f("handleTime")(t.rankEndTime)))]), i._v(" "), o("span", {
+            staticClass: "row-item rank"
+          }, [i._v(i._s(t.rank))]), i._v(" "), o("span", {
+            staticClass: "row-item prizeName"
+          }, [i._v(i._s(t.prizeName))])]);
+        }), 0)])]) : i._e(), i._v(" "), o("div", {
+          staticClass: "btn-box"
+        }, [o("div", {
+          directives: [{
+            name: "show",
+            rawName: "v-show",
+            value: 1 == i.dialogInfo.btnType,
+            expression: "dialogInfo.btnType==1"
+          }],
+          staticClass: "btn-action",
+          on: {
+            click: function (t) {
+              return i.allOrder();
+            }
+          }
+        }, [i._v("全部领取")]), i._v(" "), o("div", {
+          directives: [{
+            name: "show",
+            rawName: "v-show",
+            value: 2 == i.dialogInfo.btnType || 3 == i.dialogInfo.btnType,
+            expression: "dialogInfo.btnType==2||dialogInfo.btnType==3"
+          }],
+          staticClass: "btn-action",
+          on: {
+            click: function (t) {
+              return i.editAdress();
+            }
+          }
+        }, [i._v("填写地址")]), i._v(" "), o("div", {
+          directives: [{
+            name: "show",
+            rawName: "v-show",
+            value: 3 == i.dialogInfo.btnType,
+            expression: "dialogInfo.btnType==3"
+          }],
+          staticClass: "btn-action see-address",
+          on: {
+            click: function (t) {
+              return i.goRuleAndReward();
+            }
+          }
+        }, [i._v("查看地址")])])])] : i._e(), i._v(" "), 14 == i.type || 17 == i.type ? [o("div", {
+          staticClass: "dialog-container voucher-dialog"
+        }, [o("h1", [i._v(i._s(i.title))]), i._v(" "), o("div", {
+          staticClass: "btnBox"
+        }, [o("p", {
+          staticClass: "dialog-btn cancel",
+          style: {
+            "background-color": "".concat(i.myRgba(.1)),
+            color: i.activityInfo.color || "#00D792"
+          },
+          on: {
+            click: function (t) {
+              return i.closeDialog("showTotast");
+            }
+          }
+        }, [i._v("\n            取消\n          ")]), i._v(" "), o("p", {
+          staticClass: "dialog-btn",
+          style: {
+            "background-color": i.activityInfo.color || "#00D792"
+          },
+          on: {
+            click: function (t) {
+              return i.voucherDraw(i.type);
+            }
+          }
+        }, [i._v("\n            " + i._s(i.btnText) + "\n          ")])])])] : i._e(), i._v(" "), 15 == i.type ? [o("div", {
+          staticClass: "dialog-container authentication-dialog"
+        }, [o("div", {
+          staticClass: "title"
+        }, ["errorDialog" != i.errorCode ? o("i", {
+          staticClass: "icon"
+        }) : i._e(), i._v("\n          温馨提示\n        ")]), i._v(" "), o("div", {
+          staticClass: "msg"
+        }, [i._v(i._s(i.title))]), i._v(" "), "errorDialog" != i.errorCode ? o("div", {
+          staticClass: "link",
+          on: {
+            click: function (t) {
+              return i.toCertifiedIntro(false);
+            }
+          }
+        }, [i._v("\n          " + i._s("certify" == i.errorCode ? "点击了解实名认证" : "为什么要实名认证？") + "\n        ")]) : i._e(), i._v(" "), "certify" == i.errorCode ? o("div", {
+          staticClass: "action-btn"
+        }, [o("div", {
+          staticClass: "btn light",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }, [i._v("退出")]), i._v(" "), o("div", {
+          staticClass: "btn dark",
+          on: {
+            click: i.toCertify
+          }
+        }, [i._v("实名认证")])]) : i._e(), i._v(" "), "anti-addiction" == i.errorCode ? o("div", {
+          staticClass: "action-btn"
+        }, [o("div", {
+          staticClass: "btn light",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }, [i._v("关闭")]), i._v(" "), o("div", {
+          staticClass: "btn dark",
+          on: {
+            click: i.toCertifySuccess
+          }
+        }, [i._v("查看认证信息")])]) : i._e(), i._v(" "), "errorDialog" == i.errorCode ? o("div", {
+          staticClass: "action-btn"
+        }, [o("div", {
+          staticClass: "btn dark",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }, [i._v("知道了")])]) : i._e()])] : i._e(), i._v(" "), 16 == i.type ? [o("div", {
+          staticClass: "dialog-container jiangsu-certificate"
+        }, [o("h1", [i._v("实名认证")]), i._v(" "), o("h2", [i._v(i._s(i.userPhone) + "用户你好：")]), i._v(" "), i._m(2), i._v(" "), o("div", {
+          staticClass: "action-btn"
+        }, [o("div", {
+          staticClass: "btn light",
+          on: {
+            click: function (t) {
+              return i.toCertify();
+            }
+          }
+        }, [i._v("拒绝")]), i._v(" "), o("div", {
+          staticClass: "btn dark",
+          on: {
+            click: function (t) {
+              return i.iAgree();
+            }
+          }
+        }, [i._v("同意并授权")])])])] : i._e(), i._v(" "), 18 == i.type ? [o("div", {
+          staticClass: "dialog-container jingdong-dialog"
+        }, [o("div", {
+          staticClass: "img-fail"
+        }), i._v(" "), o("h1", [i._v(i._s(i.title))]), i._v(" "), o("span", {
+          staticClass: "close",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }), i._v(" "), o("p", {
+          staticClass: "dialog-text",
           class: {
-            on: 1 == e.consent
-          },
+            verify: "verify" === i.errorJumpType
+          }
+        }, [i._v(i._s(i.info))]), i._v(" "), o("p", {
+          staticClass: "dialog-btn",
           on: {
             click: function (t) {
-              return e.setconsent();
+              i.errorJumpType ? i.toVerify(i.errorJumpUrl) : i.closeDialog();
             }
           }
-        }), e._v(" "), t("span", {
+        }, [i._v("\n          " + i._s(i.buttonText) + "\n        ")])])] : i._e(), i._v(" "), 19 == i.type ? [o("div", {
+          staticClass: "dialog-container mZone-dialog"
+        }, [o("p", {
+          staticClass: "dialog-text",
+          style: i.computedLineHeight
+        }, [i._v(i._s(i.title))]), i._v(" "), o("div", {
+          staticClass: "btnBox"
+        }, [o("p", {
+          staticClass: "dialog-btn close",
           on: {
             click: function (t) {
-              return e.setconsent();
+              return i.closeDialog();
             }
           }
-        }, [e._v("阅读并同意")]), e._v(" "), t("a", {
-          staticClass: "unline",
+        }, [i._v("取消")]), i._v(" "), o("p", {
+          staticClass: "dialog-btn leave",
+          on: {
+            click: function (t) {
+              return i.manageMzone(i.info);
+            }
+          }
+        }, [i._v("前往")])])])] : i._e(), i._v(" "), 20 == i.type ? [i.isPc ? o("div", {
+          staticClass: "pcDownloadgameBG"
+        }, [o("div", {
+          staticClass: "dialogplan"
+        }, [o("b", {
+          staticClass: "close",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }), i._v(" "), o("span", [i._v("手机扫码下载安装")]), i._v(" "), o("div", {
+          staticClass: "qrcodebox",
           attrs: {
-            href: ""
-          },
-          on: {
-            click: function (t) {
-              return t.preventDefault(), e.jumpToQuestion("rule");
-            }
+            id: "qrcodeDown"
           }
-        }, [e._v("\n            《元宝订购服务协议》\n          ")]), e._v(" "), t("a", {
-          staticClass: "changjian",
+        }), i._v(" "), o("img", {
+          staticClass: "logo",
           attrs: {
-            href: ""
+            src: i.logoIcon
+          }
+        }), i._v(" "), o("div", {
+          staticClass: "downloadBtnBox"
+        }, [o("div", {
+          staticClass: "downBtn",
+          on: {
+            click: function (t) {
+              return i.goDownloadURL(i.info);
+            }
+          }
+        })])])]) : o("div", {
+          staticClass: "download-dialog"
+        }, [o("div", {
+          staticClass: "messageDiv"
+        }, [o("span", [i._v("请复制链接至浏览器，下载并安装游戏")]), i._v(" "), o("div", {
+          staticClass: "centerArea"
+        }, [o("div", {
+          staticClass: "downText"
+        }, [i._v("下载链接:")]), i._v(" "), o("p", {
+          staticClass: "linkText"
+        }, [i._v(i._s(i.info))])]), i._v(" "), o("div", {
+          staticClass: "bottomButton"
+        }, [o("div", {
+          staticClass: "cancelbtn",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }, [i._v("取消")]), i._v(" "), o("div", {
+          staticClass: "copybtn",
+          on: {
+            click: function (t) {
+              return i.copyDownloadURL(i.info);
+            }
+          }
+        }, [i._v("复制下载链接")])])])])] : i._e(), i._v(" "), 22 == i.type ? [o("div", {
+          staticClass: "doubleconfirm-dialog"
+        }, [o("div", {
+          staticClass: "dialog-text"
+        }, [o("span", {
+          staticClass: "title"
+        }, [i._v(i._s(i.title))]), i._v(" "), 1 == i.info.length ? o("div", {
+          staticClass: "doubleConfirm",
+          on: {
+            touchmove: function (t) {
+              t.stopPropagation();
+            }
+          }
+        }, [i._v("\n            " + i._s(i.info[0].doubleConfirm) + "\n          ")]) : i._e(), i._v(" "), i.info.length > 1 ? o("div", {
+          staticClass: "doubleConfirm",
+          on: {
+            touchmove: function (t) {
+              t.stopPropagation();
+            }
+          }
+        }, i._l(i.info, function (t, e) {
+          return o("div", {
+            key: e,
+            staticClass: "content"
+          }, [i._v("\n              " + i._s(t.doubleConfirm) + "\n            ")]);
+        }), 0) : i._e()]), i._v(" "), o("p", {
+          staticClass: "dialog-btn",
+          style: {
+            "background-color": i.activityInfo.color || "#01D692"
           },
           on: {
             click: function (t) {
-              return t.preventDefault(), e.jumpToQuestion("question");
+              return i.doubleConfirm();
             }
           }
-        }, [e._v("\n          常见问题\n          ")])])]), e._v(" "), e.onlyonePayInfo ? t("div", {
-          staticClass: "ywq-explain"
-        }, [t("h4", [e._v("元宝说明")]), e._v(" "), t("div", {
-          staticClass: "explain-cont",
+        }, [i._v("\n          " + i._s(i.btnText || "确认领取") + "\n        ")]), i._v(" "), o("span", {
+          staticClass: "close",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        })])] : i._e(), i._v(" "), 23 == i.type ? [o("div", {
+          staticClass: "action-cancle-dialog"
+        }, [o("div", {
+          staticClass: "messageDiv"
+        }, [i.showCloseIcon ? o("b", {
+          staticClass: "close",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }) : i._e(), i._v(" "), o("p", {
+          staticClass: "dialog-text"
+        }, [o("span", {
+          staticClass: "info",
           domProps: {
-            innerHTML: e._s(e.packageDescWord)
+            innerHTML: i._s(i.info)
           }
-        })]) : e._e()])]);
-      }, [], false, null, "31bdc814", null).exports;
+        })]), i._v(" "), o("div", {
+          staticClass: "bottomButton"
+        }, [i.cancelText ? o("div", {
+          staticClass: "cancelbtn",
+          on: {
+            click: function (t) {
+              return i.closeDialog(23);
+            }
+          }
+        }, [i._v(i._s(i.cancelText))]) : i._e(), i._v(" "), i.sureBtnImg ? o("div", {
+          staticClass: "btn-img",
+          on: {
+            click: function (t) {
+              return i.sureDialog(23);
+            }
+          }
+        }, [o("img", {
+          attrs: {
+            src: i.sureBtnImg
+          }
+        })]) : i.btnText ? o("div", {
+          staticClass: "copybtn",
+          on: {
+            click: function (t) {
+              return i.sureDialog(23);
+            }
+          }
+        }, [i._v(i._s(i.btnText))]) : i._e()])])])] : i._e(), i._v(" "), 24 == i.type ? [o("div", {
+          staticClass: "dialog-container goUpDialog"
+        }, [o("span", {
+          staticClass: "close",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }), i._v(" "), o("h2", [i._v(" " + i._s(i.info))]), i._v(" "), o("div", {
+          staticClass: "btnBox",
+          on: {
+            click: function (t) {
+              return i.goToGrowPage();
+            }
+          }
+        }, [i._v("\n           去升级\n        ")])])] : i._e(), i._v(" "), 25 == i.type ? [o("div", {
+          staticClass: "dialog-container normal-dialog versionDialog"
+        }, [o("img", {
+          staticClass: "dialog-img",
+          attrs: {
+            src: i.dialogBgImg ? i.dialogBgImg : i.defaultNormalDiaLog
+          }
+        }), i._v(" "), o("h1", {
+          staticClass: "h1class"
+        }, [i._v(i._s(i.title))]), i._v(" "), o("p", {
+          staticClass: "dialog-text"
+        }, [o("span", {
+          staticClass: "info",
+          domProps: {
+            innerHTML: i._s(i.info)
+          }
+        })]), i._v(" "), o("div", {
+          staticClass: "btnBox"
+        }, [o("p", {
+          staticClass: "dialog-btn type25",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }, [i._v("我知道了")]), i._v(" "), o("p", {
+          staticClass: "dialog-btn goup",
+          on: {
+            click: function (t) {
+              return i.goUp();
+            }
+          }
+        }, [i._v("去升级")])])])] : i._e(), i._v(" "), 26 == i.type ? [o("div", {
+          staticClass: "dialog-container normal-dialog versionDialog paidui"
+        }, [o("h1", [i._v(i._s(i.info))]), i._v(" "), o("div", {
+          staticClass: "btnBox"
+        }, [o("p", {
+          staticClass: "dialog-btn",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }, [i._v("稍后再试")]), i._v(" "), o("p", {
+          staticClass: "dialog-btn goup",
+          on: {
+            click: function (t) {
+              return i.goVideoFollow();
+            }
+          }
+        }, [i._v("视频跟练")])])])] : i._e(), i._v(" "), 27 == i.type ? [o("div", {
+          staticClass: "dialog-container jiangsu-certificate"
+        }, [o("h1", [i._v(i._s(i.title))]), i._v(" "), o("p", [i._v("\n          " + i._s(i.info) + "\n        ")]), i._v(" "), o("div", {
+          staticClass: "action-btn"
+        }, [o("div", {
+          staticClass: "btn light",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }, [i._v("关闭")]), i._v(" "), o("div", {
+          staticClass: "btn dark",
+          on: {
+            click: function (t) {
+              return i.toCertifySuccess();
+            }
+          }
+        }, [i._v("查看认证信息")])])])] : i._e(), i._v(" "), 29 == i.type ? [o("div", {
+          staticClass: "action-cancle-dialog"
+        }, [o("div", {
+          staticClass: "messageDiv nSelOne"
+        }, [o("p", {
+          staticClass: "dialog-text nSelOne",
+          style: "period" === i.dialogInfo.btnType ? {
+            textAlign: "center"
+          } : {}
+        }, [o("span", {
+          staticClass: "info",
+          domProps: {
+            innerHTML: i._s(i.info)
+          }
+        })]), i._v(" "), o("div", {
+          staticClass: "bottomButton"
+        }, [i.cancelText ? o("div", {
+          staticClass: "cancelbtn",
+          on: {
+            click: function (t) {
+              return i.closeDialog(i.type);
+            }
+          }
+        }, [i._v(i._s(i.cancelText))]) : i._e(), i._v(" "), i.btnText ? o("div", {
+          staticClass: "copybtn",
+          on: {
+            click: function (t) {
+              return i.doubleConfirm(i.type);
+            }
+          }
+        }, [i._v(i._s(i.btnText))]) : i._e()])])])] : i._e(), i._v(" "), 30 == i.type ? [o("div", {
+          staticClass: "action-cancle-dialog"
+        }, [o("div", {
+          staticClass: "messageDiv"
+        }, [i._m(3), i._v(" "), o("div", {
+          staticClass: "inputBox"
+        }, [o("input", {
+          directives: [{
+            name: "model",
+            rawName: "v-model",
+            value: i.giftPhone,
+            expression: "giftPhone"
+          }],
+          staticClass: "input",
+          attrs: {
+            type: "number",
+            placeholder: "请填写",
+            maxlength: "11"
+          },
+          domProps: {
+            value: i.giftPhone
+          },
+          on: {
+            input: function (t) {
+              t.target.composing || (i.giftPhone = t.target.value);
+            }
+          }
+        })]), i._v(" "), o("div", {
+          staticClass: "bottomButton"
+        }, [o("div", {
+          staticClass: "cancelbtn",
+          on: {
+            click: function (t) {
+              return i.cancelToOther(30);
+            }
+          }
+        }, [i._v("取消")]), i._v(" "), o("div", {
+          staticClass: "copybtn",
+          on: {
+            click: function (t) {
+              return i.commitPhoneNum(i.type);
+            }
+          }
+        }, [i._v("提交")])])])])] : i._e(), i._v(" "), 31 == i.type ? [o("div", {
+          staticClass: "action-cancle-dialog"
+        }, [o("div", {
+          staticClass: "messageDiv"
+        }, [o("p", {
+          staticClass: "dialog-text"
+        }, [o("span", {
+          staticClass: "info css_tal"
+        }, [i._v(i._s(a()(t = "是否将".concat(null === (e = i.prizeInfo) || undefined === e ? undefined : e.prizeName, "赠送给用户")).call(t, i.giftPhone)))])]), i._v(" "), o("div", {
+          staticClass: "bottomButton"
+        }, [o("div", {
+          staticClass: "cancelbtn",
+          on: {
+            click: function (t) {
+              return i.cancelToOther(31);
+            }
+          }
+        }, [i._v("取消")]), i._v(" "), o("div", {
+          staticClass: "copybtn",
+          on: {
+            click: function (t) {
+              return i.giftPrizeToOther(i.type);
+            }
+          }
+        }, [i._v("确认")])])])])] : i._e(), i._v(" "), 32 == i.type ? [o("div", {
+          staticClass: "dialog-container subscribe-dialog"
+        }, [o("p", {
+          staticClass: "dialog-text"
+        }, [o("span", {
+          staticClass: "info",
+          domProps: {
+            innerHTML: i._s(i.info)
+          }
+        })]), i._v(" "), o("div", {
+          staticClass: "bottomButton"
+        }, [i.cancelText ? o("div", {
+          staticClass: "cancelbtn",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }, [i._v(i._s(i.cancelText))]) : i._e(), i._v(" "), o("div", {
+          staticClass: "copybtn",
+          on: {
+            click: function (t) {
+              return i.changeSubscribe();
+            }
+          }
+        }, [i._v(i._s(1 == i.subscribeBtnType ? "立即预约" : "取消预约"))])])])] : i._e(), i._v(" "), 33 == i.type ? [o("div", {
+          staticClass: "dialog-container notReceiveDesc-dialog"
+        }, [o("p", {
+          staticClass: "dialog-text"
+        }, [o("span", {
+          staticClass: "info",
+          domProps: {
+            innerHTML: i._s(i.info)
+          }
+        })]), i._v(" "), o("p", {
+          staticClass: "dialog-btn",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }, [i._v("\n          我知道了\n        ")])])] : i._e(), i._v(" "), 34 == i.type ? [o("div", {
+          staticClass: "dialog-container notFinishUrl-dialog"
+        }, [o("p", {
+          staticClass: "dialog-text",
+          style: i.computedLineHeight
+        }, [i._v(i._s(i.title))]), i._v(" "), o("div", {
+          staticClass: "btnBox"
+        }, [o("p", {
+          staticClass: "dialog-btn close",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }, [i._v("取消")]), i._v(" "), o("p", {
+          staticClass: "dialog-btn leave",
+          on: {
+            click: function (t) {
+              return i.notFinishUrlJump();
+            }
+          }
+        }, [i._v("前往")])])])] : i._e(), i._v(" "), 35 == i.type ? [o("div", {
+          staticClass: "dialog-container prize-dailog"
+        }, [o("img", {
+          attrs: {
+            src: i.dialogBgImg.indexOf(".gif") > -1 ? i.dialogBgImg + "?".concat(Math.random()) : i.dialogBgImg,
+            alt: ""
+          }
+        }), i._v(" "), i.appUnlockPrizeFlag ? o("div", {
+          staticClass: "wait-unlock-img"
+        }) : i._e(), i._v(" "), o("p", {
+          staticClass: "prize-text"
+        }, [i.title ? o("span", {
+          staticClass: "title"
+        }, [i._v(i._s(i.appUnlockPrizeFlag ? "已领取" : "成功解锁") + i._s(i.title))]) : i._e(), i._v(" "), o("span", {
+          staticClass: "info gray"
+        }, [i._v(i._s(i.info))])]), i._v(" "), o("i", {
+          staticClass: "locationBtn-close",
+          class: i.isPc ? "pc" : "",
+          on: {
+            click: function (t) {
+              return i.closeDialog();
+            }
+          }
+        }), i._v(" "), o("div", {
+          staticClass: "waitUnLock-btns"
+        }, [o("i", {
+          directives: [{
+            name: "show",
+            rawName: "v-show",
+            value: i.isShow && !i.openGridDialogDetail,
+            expression: "isShow && !openGridDialogDetail"
+          }],
+          staticClass: "locationBtn-waitUnLock-my",
+          style: {
+            "background-color": i.activityInfo.color || "#00D792"
+          },
+          on: {
+            click: function (t) {
+              return i.goRuleAndReward();
+            }
+          }
+        }, [i._v("\n              查看我的奖品\n            ")]), i._v(" "), o("i", {
+          directives: [{
+            name: "show",
+            rawName: "v-show",
+            value: i.isShow && i.appUnlockPrizeFlag,
+            expression: "isShow && appUnlockPrizeFlag"
+          }],
+          staticClass: "locationBtn--waitUnLock-goUnlock",
+          style: {
+            "background-color": i.activityInfo.color || "#00D792"
+          },
+          on: {
+            click: function (t) {
+              return i.goUnlock();
+            }
+          }
+        }, [i._v("\n              前往解锁\n            ")])])])] : i._e()], 2), i._v(" "), o("div", {
+          directives: [{
+            name: "show",
+            rawName: "v-show",
+            value: i.clickhand,
+            expression: "clickhand"
+          }],
+          staticClass: "clickhandbg"
+        }, [o("div", {
+          staticClass: "clickhand",
+          style: i.height,
+          attrs: {
+            id: "clickhand"
+          }
+        })]), i._v(" "), o("div", {
+          directives: [{
+            name: "show",
+            rawName: "v-show",
+            value: i.showLoading,
+            expression: "showLoading"
+          }],
+          staticClass: "loadingbg"
+        }, [i._m(4)])]);
+      }, [function () {
+        var t = this,
+          e = t._self._c;
+        return e("p", {
+          staticClass: "tips"
+        }, [t._v("可在"), e("b", [t._v("【我的奖品】")]), t._v("中查询奖品信息")]);
+      }, function () {
+        var t = this,
+          e = t._self._c;
+        return e("div", [e("p", {
+          staticClass: "member-accept member-btn"
+        }, [t._v("业务受理中")]), t._v(" "), e("p", {
+          staticClass: "member-tips"
+        }, [t._v("温馨提示：会员实际到账以短信回复为准")])]);
+      }, function () {
+        var t = this,
+          e = t._self._c;
+        return e("p", [t._v("\n        根据\n        "), e("span", {
+          staticClass: "overstriking"
+        }, [t._v("《关于进一步严格管理切实防止未成年人沉迷网络游戏的通知》")]), t._v("，你需要完成实名认证才可玩游戏！\n        是否同意使用该手机号码向中国移动查询用户信息，并授权咪咕快游用于实名认证？\n      ")]);
+      }, function () {
+        var t = this._self._c;
+        return t("p", {
+          staticClass: "dialog-text"
+        }, [t("span", {
+          staticClass: "info"
+        }, [this._v("输入赠送用户手机号")])]);
+      }, function () {
+        var t = this,
+          e = t._self._c;
+        return e("div", {
+          staticClass: "shuLoding"
+        }, [e("div", {
+          staticClass: "loadingfordialog"
+        }), t._v(" "), e("span", [t._v("加载中...")])]);
+      }], false, null, "7720ee92", null).exports;
+  },
+  23046: function (t, e, i) {
+    t.exports = i.p + "static/img/openvipbg.af24557.png";
+  },
+  81234: function (t, e, i) {
+    t.exports = i.p + "static/img/migu.53977db.png";
   }
 }]);
